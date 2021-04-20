@@ -1,5 +1,6 @@
 :root {
   --green: #569F59;
+  --darkgrey: #3A3A3A;
 }
 
 html,
@@ -42,6 +43,10 @@ body {
   color: #569F59;
 }
 
+.page-header h1{
+  font-weight: 400;
+}
+
 .page-header p{
   color: rgb(0,0,0)
 }
@@ -56,4 +61,70 @@ body {
 .btn-outline-getstarted:hover{
   background-color: var(--green);
   color: white;
+}
+
+.section1{
+  background-color: var(--green);
+  color: white;
+
+  text-align: center;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section1 h2{
+  font-weight: 300;
+}
+
+.section1 p{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+}
+
+.section2{
+  text-align: center;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section2 h3, hr{
+  font-weight: 300;
+  color: var(--green)
+}
+
+.section3{
+  background-color: var(--darkgrey);
+  color: white;
+  text-align: center;
+
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section3 h2, h3{
+  font-weight: 300;
+}
+
+.section4{
+  text-align: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.section4 h2{
+  font-weight: 300;
 }
