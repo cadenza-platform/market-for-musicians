@@ -1,0 +1,59 @@
+:root {
+  --green: #569F59;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+}
+
+.navbar-brand {
+  width:150px;
+  font-size: 24px;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar-brand img {
+  height: 40px;
+  /* put value of image height as your need */
+  float: left;
+  margin-right: 7px;
+}
+
+.gradient {
+  background: rgb(22,173,22);
+  background: linear-gradient(
+    90deg, 
+    rgba(22,173,22,1) 0%, 
+    rgba(230,255,230,1) 100%
+  );
+}
+
+.page-header {
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+  font-size: 1.25rem;
+  color: #569F59;
+}
+
+.page-header p{
+  color: rgb(0,0,0)
+}
+
+.btn-outline-getstarted, 
+.btn-outline-getstarted:active, 
+.btn-outline-getstarted:visited {
+  color: var(--green);
+  border: 1px solid var(--green);
+}
+
+.btn-outline-getstarted:hover{
+  background-color: var(--green);
+  color: white;
+}
