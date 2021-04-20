@@ -92,6 +92,7 @@ hr {
   border-style: solid none;
   border-width: 1px 0;
   margin: 18px 0;
+
 }
 
 .section2{
@@ -99,6 +100,17 @@ hr {
 
   padding-top: 3rem;
   padding-bottom: 3rem;
+}
+
+.section2 img{
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius:100%;
+  border: 2px solid var(--green);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
 }
 
 .section2 h3, hr{
@@ -127,4 +139,8 @@ hr {
 
 .section4 h2{
   font-weight: 300;
+}
+
+.section4 span{
+  color: var(--green);
 }
