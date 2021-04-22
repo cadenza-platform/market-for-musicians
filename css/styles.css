@@ -61,6 +61,15 @@ body {
   height: 400px;
 }
 
+.trading-card {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+}
+
 .btn-outline-getstarted, 
 .btn-outline-getstarted:active, 
 .btn-outline-getstarted:visited {
