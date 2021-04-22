@@ -15,7 +15,7 @@ body {
 .navbar-brand {
   width:150px;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 300;
   position: absolute;
   left: 50%;
   margin-left: -50px !important;  /* 50% of your logo width */
@@ -43,8 +43,8 @@ body {
 }
 
 .page-header {
-  margin-top: 10rem;
-  margin-bottom: 10rem;
+  margin-top: 7rem;
+  margin-bottom: 7rem;
   font-size: 1.25rem;
   color: #569F59;
 }
