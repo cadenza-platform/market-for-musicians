@@ -50,6 +50,7 @@ body {
 }
 
 .page-header h1{
+  font-size: 48px;
   font-weight: 400;
 }
 
@@ -81,6 +82,20 @@ body {
 .btn-outline-getstarted:hover{
   background-color: var(--green);
   color: white;
+}
+
+.btn-outline-buynow, 
+.btn-outline-buynow:active, 
+.btn-outline-buynow:visited {
+  font-weight: 400;
+  color: var(--green);
+  border: 2px solid var(--green);
+}
+
+.btn-outline-buynow:hover{
+  font-weight: 400;
+  color: var(--green);
+  border: 2px solid var(--green);
 }
 
 .section1{
