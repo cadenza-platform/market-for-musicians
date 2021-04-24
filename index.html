@@ -32,7 +32,6 @@
 
     gtag('config', 'G-K3EY7P134L');
   </script>
-
 </head>
 
 <body>
@@ -132,39 +131,65 @@
           <hr style="height:2px;width:70%;color:white;margin: auto;">
           <br>
           <p style="font-size: 22px; font-weight: 300">
-            MINT enables you to <em><b>collect</b></em> and <em><b>trade</b></em> your favorite artists’ NFTs.
-          </p>
-          <br>
-          <p class="paragraph">
-            The image of the Mona Lisa is copied and distributed everywhere, but the physical painting itself still has
-            inherent value due to its rarity. NFTs do this for digital creations. With MINT, artists can distribute
-            their music in the form of NFTs to the public. You can invest in your favorite artists by purchasing shares
-            of these NFTs.
+            With MINT, artists can distribute their music in the form of NFTs so you can <em>collect</em> and
+            <em>trade</em> your favorite artists’ NFTs.
           </p>
 
-          <br>
-          <hr style="height:2px;width:100%;color:white;margin: auto;">
-          <br>
+          <button type="buton" id="myBtn" class="btn btn-outline-learnmore btn-large">
+            See How
+          </button>
 
         </div>
       </div>
 
+    </div>
+  </div>
+
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+
+      <h1>How it works</h1>
+      <p>With MINT, artists can distribute their music in the form of NFTs to the public. You can invest in your
+        favorite artists by purchasing shares of these NFTs.</p>
+
+      <br>
+      <hr style="height:2px;width:100%;color:black;margin: auto;">
+      <br>
 
       <div class="row align-items-center justify-content-center">
-        <div class="col-md-3" style="text-align: left;">
-          <h2>Non-Fungible</h2>
-          <h2>Tokens</h2>
+        <div class="col-md-4" style="text-align: left;">
+          <h2>Understanding NFTs</h2>
         </div>
 
-        <div class="col-md-7">
+        <div class="col-md-8">
           <p class="paragraph">
-            NFTs enable us to securely give you ownership over your favorite artists’ music. NFTs are unique and
-            certified digital assets stored on the blockchain. While copies of digital items are available for anyone to
-            obtain, NFTs track and provide you with proof of ownership over a digital asset.
+            Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but
+            there's only <b>one</b> original physical painting. This gives the original painting and its owner
+            incredible value due to its rarity. Non-Fungible Tokens do this for digital creations like art, games, and
+            in our case, music.
           </p>
         </div>
       </div>
+      <br>
 
+      <div class="row align-items-center justify-content-center">
+        <div class="col-md-4" style="text-align: left;">
+          <h2>How we use NFTs</h2>
+        </div>
+
+        <div class="col-md-8">
+          <p class="paragraph">
+            MINT allows you to invest in your favorite artists by purchasing shares of their NFTs, and enables us to
+            securely give you ownership of their music. This is possible because NFTs are unique and certified digital
+            assets stored on the blockchain. While copies of digital items are available for anyone to obtain, NFTs
+            track and provide you with proof of ownership over a digital asset.
+          </p>
+
+        </div>
+      </div>
     </div>
   </div>
 
@@ -214,48 +239,44 @@
   <div class="section3">
     <div class="container pt-3">
       <h2>DISCOVER YOUR INSIGHTS</h2>
-      <br><br>
 
       <div class="row align-items-center justify-content-center">
-        <div class="col-md-4">
+        <div class="col-md-4 feature">
           <img src="icons/music.svg">
           <p>
             Spotify/SoundCloud Integration
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 feature">
           <img src="icons/bar-chart.svg" alt="">
           <p>
             Visual Analytics
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 feature">
           <img src="icons/search.svg" alt="">
           <p>
             Advanced Artist/NFT Search
           </p>
         </div>
-      </div>
-      <br><br>
 
-      <div class="row align-items-center justify-content-center">
-        <div class="col-md-4">
+        <div class="col-md-4 feature">
           <img src="icons/clock.svg" alt="">
           <p>
             Real-Time Newsfeed
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4 feature">
           <img src="icons/refresh-ccw.svg" alt="">
           <p>
             Flexible Transfer of Funds
           </p>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-md-4" feature>
           <img src="icons/message-circle.svg" alt="">
           <p>
             Community Forums
@@ -279,6 +300,34 @@
 
 <script>
   (function () { var qs, js, q, s, d = document, gi = d.getElementById, ce = d.createElement, gt = d.getElementsByTagName, id = "typef_orm_share", b = "https://embed.typeform.com/"; if (!gi.call(d, id)) { js = ce.call(d, "script"); js.id = id; js.src = b + "embed.js"; q = gt.call(d, "script")[0]; q.parentNode.insertBefore(js, q) } })()
+</script>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal 
+  btn.onclick = function () {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
 </script>
 
 </html>
