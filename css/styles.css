@@ -117,6 +117,11 @@ body {
   font-weight: 300;
 }
 
+.section1 .paragraph{
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
 hr {
   -moz-border-bottom-colors: none;
   -moz-border-image: none;
