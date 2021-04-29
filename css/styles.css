@@ -14,7 +14,7 @@ body {
 
 .navbar-brand {
   width:150px;
-  font-size: 40px;
+  font-size: 36px;
   font-weight: 300;
   position: absolute;
   left: 50%;
@@ -23,7 +23,7 @@ body {
 }
 
 .navbar-brand img {
-  height: 40px;
+  height: 36px;
   vertical-align: middle;
   /* display: table-cell; */
   /* put value of image height as your need */
@@ -46,12 +46,12 @@ body {
   margin-top: 7rem;
   margin-bottom: 7rem;
   font-size: 1.25rem;
-  color: #569F59;
+  color: var(--green);
 }
 
 .page-header h1{
   font-size: 48px;
-  font-weight: 400;
+  font-weight: 300;
 }
 
 .page-header p{
@@ -77,6 +77,10 @@ body {
   font-weight: 400;
   color: var(--green);
   border: 2px solid var(--green);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn-outline-getstarted:hover{
@@ -90,6 +94,10 @@ body {
   font-weight: 400;
   color: white;
   border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .btn-outline-learnmore:hover{
@@ -117,8 +125,8 @@ body {
 
   text-align: center;
 
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .section1 h2{
@@ -151,8 +159,8 @@ hr {
 .section2{
   text-align: center;
 
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
 }
 
 .section2 img{
@@ -176,8 +184,8 @@ hr {
   color: white;
   text-align: center;
 
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .section3 h2, h3{
@@ -189,10 +197,14 @@ hr {
   padding-bottom: 30px;
 }
 
+.section3 img{
+  padding: 15px;
+}
+
 .section4{
   text-align: center;
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .section4 h2{
@@ -201,6 +213,13 @@ hr {
 
 .section4 span{
   color: var(--green);
+}
+
+.section4 button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 
@@ -232,9 +251,25 @@ hr {
 .modal-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 50px;
   border: 1px solid #888;
-  width: 80%;
+  width: 70%;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-device-width: 901px) {
+  .modal-content {
+    width: 70%;
+  }
+}
+
+.modal-content h1, h2{
+  font-weight: 300;
 }
 
 /* The Close Button */
