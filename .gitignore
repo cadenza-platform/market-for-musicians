@@ -1,0 +1,7 @@
+.DS_Store
+.vscode/
+package-lock.json
+
+vera_frontend/node_modules/
+vera_frontend/package-lock.json
+vera_frontend/yarn.lock
