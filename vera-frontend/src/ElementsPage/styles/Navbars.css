@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+
+/* Navbar styling */
+.navbar {
+    background-color: #ffffff;
+    border: 1px solid #E2E5E6;
+}
+
+.nav {
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+/* Innder navbar elements */
+.navbar-form {
+    background-color: #f4f5f4;
+    border: 0px;
+}

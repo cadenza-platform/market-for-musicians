@@ -1,8 +1,12 @@
-import Buttons from "./components/Buttons"
+import Buttons from './components/Buttons';
+import Navbars from './components/Navbars';
 
 function Elements() {
-    return(
-        <Buttons />
+    return (
+        <div>
+            <Navbars />
+            <Buttons />
+        </div>
     );
 }
 
