@@ -1,5 +1,6 @@
-import Buttons from "./components/Buttons"
-import SongCard from "./components/SongCard"
+import Buttons from './components/Buttons';
+import Navbars from './components/Navbars';
+import SongCard from "./components/SongCard";
 
 var songcardProps = {
     "title": "Test Title",
@@ -11,6 +12,7 @@ var songcardProps = {
 function Elements() {
     return (
         <div>
+            <Navbars />
             <Buttons />
             <SongCard song={songcardProps}/>
         </div>
