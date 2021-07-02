@@ -1,0 +1,30 @@
+.info-dropdown {
+    font-family: 'Mulish', sans-serif;
+    letter-spacing: 0.2px;
+    color: black;
+    width: 100%;
+    height: 100%;
+}
+
+.info-dropdown-header {
+    font-weight: bolder;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(248, 248, 248, 0.9375) 93.23%, #E1E1E1 100%);
+    border: none;
+    padding: 2%;
+}
+
+.info-dropdown-body {
+    text-align: left;
+    font-weight: lighter;
+    font-size: small;
+    width: 90%;
+    height: 90%;
+}
+
+.info-dropdown-header-icon {
+    width: 2%;
+    height: 29%;
+}
