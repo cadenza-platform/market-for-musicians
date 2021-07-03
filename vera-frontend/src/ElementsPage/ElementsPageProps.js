@@ -23,4 +23,13 @@ const borderProps = {
     "border": true
 };
 
-export { songcardProps, dropdownProps, noBorderProps, borderProps };
+const noCaptionProps = {
+    "filename": logo,
+    "border": true
+}
+
+const noCaptionNoBorderProps = {
+    "filename": logo
+}
+
+export { songcardProps, dropdownProps, noBorderProps, borderProps, noCaptionProps, noCaptionNoBorderProps };

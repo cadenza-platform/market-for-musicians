@@ -8,7 +8,9 @@ import {
     songcardProps,
     dropdownProps,
     noBorderProps,
-    borderProps
+    borderProps,
+    noCaptionProps,
+    noCaptionNoBorderProps
 } from './ElementsPageProps';
 
 function Elements() {
@@ -17,6 +19,8 @@ function Elements() {
             <Navbars /><br />
             <Buttons /><br /><br/>
             <div className="images-container">
+                <CaptionedImage content={noCaptionNoBorderProps} />
+                <CaptionedImage content={noCaptionProps} />
                 <CaptionedImage content={noBorderProps} />
                 <CaptionedImage content={borderProps} />
             </div><br/>         
