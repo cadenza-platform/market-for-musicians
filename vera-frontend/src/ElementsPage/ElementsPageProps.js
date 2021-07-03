@@ -1,0 +1,26 @@
+import logo from './styles/images/logo.png';
+
+const songcardProps = {
+    "title": "Test Title",
+    "price": "9.00",
+    "artist": "Test Artist",
+    "listens": "100"
+};
+
+const dropdownProps = {
+    "header": "What’s a NFT (non-fungible token)?",
+    "body": "Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Non-Fungible Tokens do this for digital creations like art, games, and in our case, music."
+};
+
+const noBorderProps = {
+    "filename": logo,
+    "caption": "LOGO - NO BORDER"
+};
+
+const borderProps = {
+    "filename": logo,
+    "caption": "LOGO - WITH BORDER",
+    "border": true
+};
+
+export { songcardProps, dropdownProps, noBorderProps, borderProps };
