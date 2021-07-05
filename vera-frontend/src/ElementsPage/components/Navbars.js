@@ -9,25 +9,16 @@ import { LinkContainer } from 'react-router-bootstrap';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
 
+import { useSelector, useDispatch } from 'react-redux';
+import {
+    toggleView,
+    selectView
+} from '../../features/viewSlice';
+import { Link } from 'react-router-dom';
+
 function Navbars(props) {
-    var toggle = (
-        <LinkContainer to="/">
-            <Nav.Link>Investors</Nav.Link>
-        </LinkContainer>
-    );
-    if (props.toggle === "artist") {
-        toggle = (
-            <LinkContainer to="/">
-                <Nav.Link>Investors</Nav.Link>
-            </LinkContainer>
-        );
-    } else {
-        toggle = (
-            <LinkContainer to="/artist">
-                <Nav.Link>Artists</Nav.Link>
-            </LinkContainer>
-        );
-    }
+    const view = useSelector(selectView);
+    const dispatch = useDispatch();
 
     return (
         <Navbar expand="md" className="navbar">
@@ -48,7 +39,7 @@ function Navbars(props) {
                     <LinkContainer to="/activity">
                         <Nav.Link>Activity</Nav.Link>
                     </LinkContainer>
-                    {toggle}
+                    <Nav.Link onClick={() => dispatch(toggleView())}>{view}</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
