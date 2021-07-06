@@ -5,4 +5,5 @@ export const store = configureStore({
   reducer: {
     view: viewReducer,
   },
+  devtools: false,
 });
