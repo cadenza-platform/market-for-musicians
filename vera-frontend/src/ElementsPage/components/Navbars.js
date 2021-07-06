@@ -3,7 +3,8 @@ import {
     Nav,
     Form,
     FormControl,
-    Image
+    Image,
+    Button
 } from 'react-bootstrap';
 import { BrowserRouter as Router } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
@@ -12,13 +13,26 @@ import logo from "../styles/images/logo.png";
 
 import { useSelector, useDispatch } from 'react-redux';
 import {
-    toggleView,
+    toggleArtist,
+    toggleFan,
     selectView
 } from '../../features/viewSlice';
 
 function Navbars() {
     const view = useSelector(selectView);
     const dispatch = useDispatch();
+
+    var toggle = (<Nav className="ml-auto nav">
+        <Button variant="outline-secondary" className="toggle-button left selected">Fan</Button>
+        <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>Artist</Button>
+    </Nav>);
+
+    if (view == "Artist") {
+        toggle = (<Nav className="ml-auto nav">
+            <Button variant="outline-secondary" className="toggle-button left" onClick={() => dispatch(toggleFan())}>Fan</Button>
+            <Button variant="outline-secondary" className="toggle-button right selected">Artist</Button>
+        </Nav>);
+    }
 
     return (
         <Router>
@@ -47,9 +61,7 @@ function Navbars() {
                             <Nav.Link>Careers</Nav.Link>
                         </LinkContainer>
                     </Nav>
-                    <Nav class="ml-auto nav navbar-nav">
-                        <Nav.Link onClick={() => dispatch(toggleView())}>{view}</Nav.Link>
-                    </Nav>
+                    {toggle}
                 </Navbar.Collapse>
             </Navbar>
         </Router>

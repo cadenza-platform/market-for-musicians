@@ -3,20 +3,19 @@ import { createSlice } from '@reduxjs/toolkit'
 export const viewSlice = createSlice({
     name: 'view',
     initialState: {
-        value: 'Investor'
+        value: 'Fan'
     },
     reducers: {
-        toggleView: state => {
-            if (state.value == 'Investor') {
-                state.value = 'Artist';
-            } else if (state.value == 'Artist') {
-                state.value = 'Investor';
-            }
+        toggleArtist: state => {
+            state.value = 'Artist';
+        },
+        toggleFan: state => {
+            state.value = 'Fan';
         }
     }
 });
 
-export const { toggleView } = viewSlice.actions;
+export const { toggleArtist, toggleFan } = viewSlice.actions;
 
 export const selectView = state => state.view.value;
 
