@@ -18,6 +18,5 @@
 .join-waitlist-button {
     font-weight: bolder;
     font-size: x-large;
-    width: 40%;
-    height: 15%;
+    padding: 15px 30px 15px 30px;
 }
