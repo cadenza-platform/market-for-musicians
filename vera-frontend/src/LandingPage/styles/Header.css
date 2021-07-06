@@ -1,0 +1,22 @@
+.header-container {
+    background: linear-gradient(#3B8686, #ACBBA8);
+    display: flex;
+    padding: 10%;
+    text-align: left;
+}
+
+.header-text-title {
+    color: white;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+.header-text-body {
+    font-size: large;
+}
+
+.join-waitlist-button {
+    font-weight: bolder;
+    font-size: x-large;
+    padding: 15px 30px 15px 30px;
+}

@@ -1,9 +1,13 @@
 import './Landing.css';
 import Navbars from '../ElementsPage/components/Navbars';
+import Header from './components/Header';
 
 function Landing() {
     return (
-        <Navbars />
+        <div className="landing-page">
+            <Navbars />
+            <Header />
+        </div>
     );
 }
 
