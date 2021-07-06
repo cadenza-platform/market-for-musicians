@@ -33,13 +33,21 @@ function Navbars() {
                     <FormControl type="text" placeholder="Search" className="mr-sm-2 navbar-form" />
                 </Form>
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="ml-auto nav">
-                        <LinkContainer to="/marketplace">
-                            <Nav.Link>Marketplace</Nav.Link>
+                    <Nav className="mr-auto nav">
+                        <LinkContainer to="/getting-started">
+                            <Nav.Link>Getting Started</Nav.Link>
                         </LinkContainer>
-                        <LinkContainer to="/activity">
-                            <Nav.Link>Activity</Nav.Link>
+                        <LinkContainer to="/how-it-works">
+                            <Nav.Link>How It Works</Nav.Link>
                         </LinkContainer>
+                        <LinkContainer to="/features">
+                            <Nav.Link>Features</Nav.Link>
+                        </LinkContainer>
+                        <LinkContainer to="/careers">
+                            <Nav.Link>Careers</Nav.Link>
+                        </LinkContainer>
+                    </Nav>
+                    <Nav class="ml-auto nav navbar-nav">
                         <Nav.Link onClick={() => dispatch(toggleView())}>{view}</Nav.Link>
                     </Nav>
                 </Navbar.Collapse>
