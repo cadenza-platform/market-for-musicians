@@ -1,0 +1,7 @@
+.elements-container {
+    width: 750px;
+}
+
+.images-container {
+    display: flex;
+}

@@ -1,8 +1,8 @@
 .header-container {
     background: linear-gradient(#3B8686, #ACBBA8);
-    display: flex;
     padding: 10%;
     text-align: left;
+    display: flex;
 }
 
 .header-text-title {
@@ -19,4 +19,10 @@
     font-weight: bolder;
     font-size: x-large;
     padding: 15px 30px 15px 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .header-container {
+        flex-direction: column-reverse;
+    }
 }
