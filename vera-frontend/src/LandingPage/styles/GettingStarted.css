@@ -1,0 +1,33 @@
+.gettingstarted-container {
+    background-color: #ffeeda;
+    padding: 10%;
+    text-align: left;
+}
+
+.gettingstarted-header {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0.2px;
+    color: #000000;
+}
+
+.gettingstarted-text {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 41px;
+    letter-spacing: 0.2px;
+    color: #373F41;
+}
+
+.gettingstarted-col {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10%;
+}
+
+.gettingstarted-image {
+    margin-left: auto; 
+    margin-right: 0;
+}
