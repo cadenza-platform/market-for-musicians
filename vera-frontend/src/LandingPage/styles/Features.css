@@ -1,0 +1,27 @@
+.features-container {
+    background-color: #ffffff;
+    padding: 10%;
+}
+
+.features-header {
+    color: #79bd9a;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+}
+
+.features-icon {
+    height: 100px;
+    width: auto;
+}
+
+.features-icon-label {
+    padding-top: 10px;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 25px;
+    letter-spacing: 0.2px;
+}
