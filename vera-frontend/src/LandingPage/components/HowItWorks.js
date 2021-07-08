@@ -1,12 +1,12 @@
 import {
     Image, 
-    Button,
     Container,
     Row,
     Col
 } from 'react-bootstrap';
 import Dropdown from '../../ElementsPage/components/Dropdown';
-import '../styles/HowItWorks.css'
+import '../styles/HowItWorks.css';
+import howItWorksIcon from '../styles/images/howitworks-icon.png';
 
 const faqWhatProps = {
     "header": "What’s a NFT (non-fungible token)?",
@@ -28,19 +28,20 @@ function HowItWorks() {
                     </h1>
                 </Col>
                 <Col>
-                    <p className="howitworks-text-body">
+                    <i className="howitworks-text-body">
                         With Vera, artists can distribute their music in the form of NFTs to the public.
                         You can invest in your favorite artists by purchasing shares of these NFTs.
-                    </p>
+                    </i>
                 </Col>
-            </Row>
+            </Row><br/>
             <Row>
                 <Col>
-                    <Image/>
+                    <Image src={howItWorksIcon}/>
                 </Col>
                 <Col>
                     <Dropdown content={faqWhatProps}/>
                     <Dropdown content={faqHowProps}/>
+
                 </Col>
             </Row>
         </Container>

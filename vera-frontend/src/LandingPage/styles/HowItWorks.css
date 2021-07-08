@@ -1,3 +1,12 @@
 .howitworks-container {
     padding: 10%;
 }
+
+.howitworks-text-title {
+    color: #79BD9A;
+    font-weight: bolder;
+}
+
+.howitworks-text-body {
+    text-align: left;
+}
