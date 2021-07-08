@@ -1,0 +1,32 @@
+.contact-container {
+    padding: 10%;
+    background-color: #3a3a3a;
+    text-align: left;
+}
+
+.contact-header {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.contact-text {
+    font-style: italic;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #ffffff;
+}
+
+.contact-button {
+    padding: 15px;
+    font-weight: 900;
+    font-size: 20px;
+    letter-spacing: 0.2px;
+    border: 2px solid #c4c4c4;
+    border-radius: 5px;
+}
