@@ -19,7 +19,7 @@ function Toggle({ content, eventKey }) {
     );
   }
 
-function Dropdowns(props) {
+function Dropdown(props) {
     return (
         <Accordion className="info-dropdown" defaultActiveKey="0">
             <Card className="info-dropdown-content">
@@ -32,4 +32,4 @@ function Dropdowns(props) {
     );
 }
 
-export default Dropdowns;
+export default Dropdown;
