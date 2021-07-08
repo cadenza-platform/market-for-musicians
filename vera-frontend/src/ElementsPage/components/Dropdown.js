@@ -17,14 +17,14 @@ function Toggle({ content, eventKey, callback }) {
     return (
         <button className="info-dropdown-header" type="button" onClick={toggleArrow}>
             {content}
-            <Image className="info-dropdown-header-icon" src={toggleOn ? downarrow : uparrow}/>
+            <Image className="info-dropdown-header-icon" src={toggleOn ? uparrow : downarrow}/>
         </button>
     );
   }
 
 function Dropdown(props) {
     return (
-        <Accordion className="info-dropdown" defaultActiveKey="0">
+        <Accordion className="info-dropdown" defaultActiveKey="1">
             <Card className="info-dropdown-content">
                 <Toggle content={props.content.header} eventKey="0" />
                 <Accordion.Collapse eventKey="0">

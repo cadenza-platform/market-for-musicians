@@ -21,25 +21,25 @@ const faqHowProps = {
 function HowItWorks() {
     return (
         <Container fluid className="howitworks-container">
-            <Row className="flex-column-reverse flex-md-row">
+            <Row className="flex-column flex-md-row">
                 <Col>
                     <h1 className="howitworks-text-title">
                         How it works
                     </h1>
                 </Col>
-                <Col>
-                    <i className="howitworks-text-body">
+                <Col className="howitworks-text-body">
+                    <i>
                         With Vera, artists can distribute their music in the form of NFTs to the public.
                         You can invest in your favorite artists by purchasing shares of these NFTs.
                     </i>
                 </Col>
             </Row><br/>
-            <Row>
+            <Row className="flex-column flex-md-row align-items-md-center">
                 <Col>
-                    <Image src={howItWorksIcon}/>
+                    <Image className="howitworks-icon" src={howItWorksIcon}/>
                 </Col>
                 <Col>
-                    <Dropdown content={faqWhatProps}/>
+                    <Dropdown content={faqWhatProps}/><br/>
                     <Dropdown content={faqHowProps}/>
 
                 </Col>
