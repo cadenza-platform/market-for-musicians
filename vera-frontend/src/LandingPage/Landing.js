@@ -3,6 +3,7 @@ import Navbars from '../ElementsPage/components/Navbars';
 import Header from './components/Header';
 import GettingStarted from './components/GettingStarted';
 import Features from './components/Features';
+import Contact from './components/Contact';
 
 function Landing() {
     return (
@@ -11,6 +12,7 @@ function Landing() {
             <Header />
             <GettingStarted />
             <Features />
+            <Contact />
         </div>
     );
 }
