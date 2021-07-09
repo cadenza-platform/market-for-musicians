@@ -1,27 +1,30 @@
-import { Image, Card, Accordion } from 'react-bootstrap';
+import { useContext } from 'react';
+import { Image, Card, Accordion, AccordionContext } from 'react-bootstrap';
 import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
 import uparrow from '../styles/images/uparrow.png';
 import downarrow from '../styles/images/downarrow.png';
 import '../styles/Dropdown.css';
 
-var toggleOn = false;
+function Toggle({ content, eventKey, callback }) {
+    const currentEventKey = useContext(AccordionContext);
 
-function Toggle({ content, eventKey }) {
     const toggleArrow = useAccordionToggle(eventKey, () =>
-      toggleOn = !toggleOn,
+        callback && callback(eventKey),
     );
-  
+    
+    const toggleOn = currentEventKey === eventKey;
+
     return (
         <button className="info-dropdown-header" type="button" onClick={toggleArrow}>
             {content}
-            <Image className="info-dropdown-header-icon" src={toggleOn ? downarrow : uparrow}/>
+            <Image className="info-dropdown-header-icon" src={toggleOn ? uparrow : downarrow}/>
         </button>
     );
   }
 
-function Dropdowns(props) {
+function Dropdown(props) {
     return (
-        <Accordion className="info-dropdown" defaultActiveKey="0">
+        <Accordion className="info-dropdown" defaultActiveKey="1">
             <Card className="info-dropdown-content">
                 <Toggle content={props.content.header} eventKey="0" />
                 <Accordion.Collapse eventKey="0">
@@ -32,4 +35,4 @@ function Dropdowns(props) {
     );
 }
 
-export default Dropdowns;
+export default Dropdown;

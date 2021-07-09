@@ -1,7 +1,7 @@
 import Buttons from './components/Buttons';
 import Navbars from './components/Navbars';
 import SongCard from './components/SongCard';
-import Dropdowns from './components/Dropdown';
+import Dropdown from './components/Dropdown';
 import CaptionedImage from './components/Image';
 import './ElementsPage.css';
 import {
@@ -24,7 +24,7 @@ function Elements() {
                 <CaptionedImage content={noBorderProps} />
                 <CaptionedImage content={borderProps} />
             </div><br/>         
-            <Dropdowns content={dropdownProps}/><br/>
+            <Dropdown content={dropdownProps}/><br/>
             <SongCard song={songcardProps}/><br />
         </div>
     );

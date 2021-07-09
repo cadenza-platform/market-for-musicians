@@ -1,0 +1,19 @@
+.howitworks-container {
+    padding: 10%;
+}
+
+.howitworks-text-title {
+    color: #79BD9A;
+    font-weight: bolder;
+    font-size: xxx-large;
+    margin: 0;
+    align-self: center;
+}
+
+.howitworks-text-body {
+    text-align: left;
+}
+
+.howitworks-icon {
+    padding: 3%;
+}
