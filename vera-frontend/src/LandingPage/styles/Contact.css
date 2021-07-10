@@ -30,3 +30,21 @@
     border: 2px solid #c4c4c4;
     border-radius: 5px;
 }
+
+@media only screen and (max-width: 600px) {
+    .contact-header {
+        font-size: 30px;
+        line-height: 38px;
+    }
+
+    .contact-text {
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 20px;
+    }
+
+    .contact-button {
+        width: 100%;
+        font-size: 25px;
+    }
+}
