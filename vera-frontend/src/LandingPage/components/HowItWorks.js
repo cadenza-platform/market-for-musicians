@@ -41,7 +41,6 @@ function HowItWorks() {
                 <Col>
                     <Dropdown content={faqWhatProps}/><br/>
                     <Dropdown content={faqHowProps}/>
-
                 </Col>
             </Row>
         </Container>
