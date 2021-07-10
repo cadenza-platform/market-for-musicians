@@ -14,7 +14,7 @@ function Features() {
     return (
         <Container fluid className="features-container align-content-start">
             <h1 className="features-header">Features</h1>
-            <Row>
+            <Row xs={1} md={2} lg={4}>
                 <Col>
                     <Image src={recommendationsIcon} className="features-icon" />
                     <p className="features-icon-label">
