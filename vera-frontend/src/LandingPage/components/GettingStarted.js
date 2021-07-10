@@ -9,7 +9,7 @@ import laptopIcon from '../styles/images/laptop-icon.png';
 
 function GettingStarted() {
     return (
-        <Container fluid className="gettingstarted-container">
+        <Container fluid className="gettingstarted-container" id="getting-started">
             <Row>
                 <Col className="gettingstarted-col">
                     <Image className="gettingstarted-image" src={laptopIcon} />

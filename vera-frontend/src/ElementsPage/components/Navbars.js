@@ -8,6 +8,7 @@ import {
 } from 'react-bootstrap';
 import { BrowserRouter as Router } from "react-router-dom";
 import { LinkContainer } from 'react-router-bootstrap';
+import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
 
@@ -43,23 +44,12 @@ function Navbars() {
                     </Navbar.Brand>
                 </LinkContainer>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Form inline>
-                    <FormControl type="text" placeholder="Search" className="mr-sm-2 navbar-form" />
-                </Form>
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto nav">
-                        <LinkContainer to="/getting-started">
-                            <Nav.Link>Getting Started</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/how-it-works">
-                            <Nav.Link>How It Works</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/features">
-                            <Nav.Link>Features</Nav.Link>
-                        </LinkContainer>
-                        <LinkContainer to="/careers">
-                            <Nav.Link>Careers</Nav.Link>
-                        </LinkContainer>
+                        <Link to="#getting-started" className="nav-link">Getting Started</Link>
+                        <Link to="#how-it-works" className="nav-link">How It Works</Link>
+                        <Link to="#features" className="nav-link">Features</Link>
+                        <Link to="#careers" className="nav-link">Careers</Link>
                     </Nav>
                     {toggle}
                 </Navbar.Collapse>
