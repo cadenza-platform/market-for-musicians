@@ -1,8 +1,6 @@
 import {
     Navbar,
     Nav,
-    Form,
-    FormControl,
     Image,
     Button
 } from 'react-bootstrap';
@@ -16,7 +14,10 @@ import { useSelector, useDispatch } from 'react-redux';
 import {
     toggleArtist,
     toggleFan,
-    selectView
+    selectView,
+    selectCollapse,
+    toggleCollapseOpen,
+    toggleCollapseClose
 } from '../../features/viewSlice';
 
 function Navbars() {
@@ -24,26 +25,44 @@ function Navbars() {
     const dispatch = useDispatch();
 
     var toggle = (<Nav className="ml-auto nav">
-        <Button variant="outline-secondary" className="toggle-button left selected">Fan</Button>
-        <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>Artist</Button>
+        <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button>
+        <div className="toggle-button-group flex-md-col">
+            <Button variant="outline-secondary" className="toggle-button left selected">Fan</Button>
+            <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>Artist</Button>
+        </div>
     </Nav>);
 
     if (view == "Artist") {
         toggle = (<Nav className="ml-auto nav">
-            <Button variant="outline-secondary" className="toggle-button left" onClick={() => dispatch(toggleFan())}>Fan</Button>
-            <Button variant="outline-secondary" className="toggle-button right selected">Artist</Button>
+            <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button>
+            <div className="toggle-button-group flex-md-col">
+                <Button variant="outline-secondary" className="toggle-button left" onClick={() => dispatch(toggleFan())}>Fan</Button>
+                <Button variant="outline-secondary" className="toggle-button right selected">Artist</Button>
+            </div>
         </Nav>);
+    }
+
+    const collapse = useSelector(selectCollapse);
+    var collapseToggle = (<Navbar.Toggle aria-controls="basic-navbar-nav" class="nav-toggle-open" onClick={() => dispatch(toggleCollapseOpen())} />);
+    if (collapse == 'open') {
+        collapseToggle = (<Navbar.Toggle aria-controls="basic-navbar-nav" class="nav-toggle-close" onClick={() => dispatch(toggleCollapseClose())}>
+            <button type="button" class="close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </Navbar.Toggle>);
     }
 
     return (
         <Router>
-            <Navbar expand="md" className="navbar">
+            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row">
                 <LinkContainer to="/">
                     <Navbar.Brand>
                         <Image src={logo} />
                     </Navbar.Brand>
                 </LinkContainer>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
+
+                {collapseToggle}
+
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto nav">
                         <Link to="#getting-started" className="nav-link">Getting Started</Link>
