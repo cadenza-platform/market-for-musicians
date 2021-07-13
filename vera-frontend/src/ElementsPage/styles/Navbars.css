@@ -14,7 +14,7 @@
     color: #000000;
 }
 
-/* Innder navbar elements */
+/* Inner navbar elements */
 .nav-link {
     color: #373F41;
 }
@@ -47,4 +47,36 @@
 .selected {
     background-color: #c4c4c4;
     color: #ffffff;
+}
+
+.nav-join-waitlist-button {
+    margin-right: 25px;
+    color: #3B8686;
+}
+
+.navbar-toggler {
+    border: 0px;
+}
+
+@media only screen and (max-width: 768px) {
+    .navbar {
+        display: flex;
+    }
+
+    .nav-join-waitlist-button {
+        margin-bottom: 10px;
+        width: 60%;
+        margin-right: auto;
+        font-size: 20px;
+    }
+
+    .navbar-collapse {
+        text-align: left;
+        width: 80%;
+    }
+
+    .nav-link {
+        font-size: 20px;
+        color: #373F41;
+    }
 }
