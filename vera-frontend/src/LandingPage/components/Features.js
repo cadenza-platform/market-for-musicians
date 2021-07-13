@@ -5,9 +5,9 @@ import {
     Image
 } from 'react-bootstrap';
 import '../styles/Features.css';
-import recommendationsIcon from '../styles/images/recommendations-icon.png';
-import analyticsIcon from '../styles/images/analytics-icon.png';
-import advancedSearchIcon from  '../styles/images/advanced-search-icon.png';
+import recommendationsIcon from '../styles/images/recommendations-icon.svg';
+import analyticsIcon from '../styles/images/analytics-icon.svg';
+import advancedSearchIcon from  '../styles/images/advanced-search-icon.svg';
 import flexibleExchangeIcon from '../styles/images/flexible-exchange-icon.png';
 
 function Features() {

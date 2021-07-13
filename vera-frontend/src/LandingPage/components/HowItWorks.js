@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import Dropdown from '../../ElementsPage/components/Dropdown';
 import '../styles/HowItWorks.css';
-import howItWorksIcon from '../styles/images/howitworks-icon.png';
+import coinDataIcon from '../styles/images/coin-data-icon.svg';
 
 const faqWhatProps = {
     "header": "What’s a NFT (non-fungible token)?",
@@ -36,7 +36,7 @@ function HowItWorks() {
             </Row><br/>
             <Row className="flex-column flex-md-row align-items-md-center">
                 <Col>
-                    <Image className="howitworks-icon" src={howItWorksIcon}/>
+                    <Image className="howitworks-icon" src={coinDataIcon}/>
                 </Col>
                 <Col>
                     <Dropdown content={faqWhatProps}/><br/>

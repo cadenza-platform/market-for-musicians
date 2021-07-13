@@ -7,7 +7,7 @@
     font-weight: bolder;
     font-size: xxx-large;
     margin: 0;
-    align-self: center;
+    text-align: left;
 }
 
 .howitworks-text-body {
@@ -17,6 +17,7 @@
 
 .howitworks-icon {
     padding: 3%;
+    float: left;
 }
 
 @media only screen and (max-width: 600px) {
@@ -34,5 +35,6 @@
     
     .howitworks-icon {
         margin-bottom: 20px;
+        float: none;
     }
 }
