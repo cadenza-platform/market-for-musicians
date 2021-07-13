@@ -6,7 +6,7 @@ import '../styles/Contact.css';
 
 function Contact() {
     return (
-        <Container fluid className="contact-container">
+        <Container fluid className="contact-container" id="careers">
             <h1 className="contact-header">Careers</h1>
             <p className="contact-text">
             At Vera, we are driven by our mission to revolutionize the music industry and offer an unparalleled level of interaction between artists and fans. We're currently looking for ambitious individuals with talent in software, design, and finance. 

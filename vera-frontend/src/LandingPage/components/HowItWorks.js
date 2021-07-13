@@ -20,7 +20,7 @@ const faqHowProps = {
 
 function HowItWorks() {
     return (
-        <Container fluid className="howitworks-container">
+        <Container fluid className="howitworks-container" id="how-it-works">
             <Row className="flex-column flex-md-row">
                 <Col>
                     <h1 className="howitworks-text-title">
