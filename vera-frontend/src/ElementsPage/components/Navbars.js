@@ -8,7 +8,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
-
 import { useSelector, useDispatch } from 'react-redux';
 import {
     toggleArtist,
@@ -19,7 +18,7 @@ import {
     toggleCollapseClose,
 } from '../../features/viewSlice';
 
-function Navbars() {
+function Navbars(fixed) {
     const view = useSelector(selectView);
     const dispatch = useDispatch();
 
@@ -46,10 +45,10 @@ function Navbars() {
             </button>
         </Navbar.Toggle>);
     }
-    
+
     return (
         <Router>
-            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed="top">
+            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={fixed.fixed}>
                 <Link to="#header">
                     <Navbar.Brand>
                         <Image src={logo} />
