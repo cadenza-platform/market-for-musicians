@@ -5,7 +5,6 @@ import {
     Button
 } from 'react-bootstrap';
 import { BrowserRouter as Router } from "react-router-dom";
-import { LinkContainer } from 'react-router-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
@@ -51,11 +50,11 @@ function Navbars() {
     return (
         <Router>
             <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed="top">
-                <LinkContainer to="/">
+                <Link to="#header">
                     <Navbar.Brand>
                         <Image src={logo} />
                     </Navbar.Brand>
-                </LinkContainer>
+                </Link>
             
                 {collapseToggle}
 

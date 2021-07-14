@@ -10,7 +10,7 @@ import laptop from '../styles/images/laptop.png';
 
 function Header() {
     return(
-        <Container fluid className="header-container">
+        <Container fluid className="header-container" id="header">
             <Row className="flex-column-reverse flex-md-row" xs={1} md={2}>
                 <Col className="header-text desktop-col">
                     <h1 className="header-text-title">
