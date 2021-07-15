@@ -12,7 +12,7 @@ function Landing() {
 
     return (
         <div className="landing-page" ref={scrollRef}>
-            <Navbars fixed={scrollPercentage < 0.30 ? "none" : "top"}/>
+            <Navbars fixed={scrollPercentage >= 0.30}/>
             <Header />
             <GettingStarted />
             <HowItWorks />

@@ -18,7 +18,7 @@ import {
     toggleCollapseClose,
 } from '../../features/viewSlice';
 
-function Navbars(fixed) {
+function Navbars(props) {
     const view = useSelector(selectView);
     const dispatch = useDispatch();
 
@@ -46,9 +46,15 @@ function Navbars(fixed) {
         </Navbar.Toggle>);
     }
 
+    var joinWaitlistButton = (
+        props.fixed ? 
+        <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button> :
+        <div></div>
+    );
+
     return (
         <Router>
-            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={fixed.fixed}>
+            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={props.fixed ? "top" : "none"}>
                 <Link to="#header">
                     <Navbar.Brand>
                         <Image src={logo} />
@@ -66,7 +72,7 @@ function Navbars(fixed) {
                     </Nav>
 
                     <Nav className="ml-auto nav">
-                        <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button>
+                        {joinWaitlistButton}
                         {toggle}
                     </Nav>
                 </Navbar.Collapse>
