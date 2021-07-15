@@ -4,7 +4,7 @@ import {
     Col,
     Image
 } from 'react-bootstrap';
-import '../styles/Features.css';
+import '../styles/FanFeatures.css';
 import recommendationsIcon from '../styles/images/recommendations-icon.svg';
 import analyticsIcon from '../styles/images/analytics-icon.svg';
 import advancedSearchIcon from  '../styles/images/advanced-search-icon.svg';
