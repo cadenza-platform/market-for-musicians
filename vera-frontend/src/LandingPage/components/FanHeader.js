@@ -8,7 +8,7 @@ import {
 } from 'react-bootstrap';
 import laptop from '../styles/images/laptop.png';
 
-function Header() {
+function FanHeader() {
     return(
         <Container fluid className="header-container" id="header">
             <Row className="flex-column-reverse flex-md-row" xs={1} md={2}>
@@ -41,4 +41,4 @@ function Header() {
     );
 }
 
-export default Header;
+export default FanHeader;

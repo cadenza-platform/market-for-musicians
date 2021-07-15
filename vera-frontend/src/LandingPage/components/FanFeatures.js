@@ -10,7 +10,7 @@ import analyticsIcon from '../styles/images/analytics-icon.svg';
 import advancedSearchIcon from  '../styles/images/advanced-search-icon.svg';
 import flexibleExchangeIcon from '../styles/images/flexible-exchange-icon.png';
 
-function Features() {
+function FanFeatures() {
     return (
         <Container fluid className="features-container align-content-start" id="features">
             <h1 className="features-header">Features</h1>
@@ -48,4 +48,4 @@ function Features() {
     );
 }
 
-export default Features;
+export default FanFeatures;
