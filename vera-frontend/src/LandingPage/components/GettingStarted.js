@@ -12,7 +12,7 @@ import investmentIcon from '../styles/images/investment-icon.svg';
 
 function GettingStarted() {
     return (
-        <Container fluid className="gettingstarted-container">
+        <Container fluid className="gettingstarted-container" id="getting-started">
             <Row className="gettingstarted-desktop">
                 <Col className="gettingstarted-col">
                     <Image className="gettingstarted-image" src={laptopIcon} />

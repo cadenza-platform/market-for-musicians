@@ -5,11 +5,9 @@ import {
     Button
 } from 'react-bootstrap';
 import { BrowserRouter as Router } from "react-router-dom";
-import { LinkContainer } from 'react-router-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
-
 import { useSelector, useDispatch } from 'react-redux';
 import {
     toggleArtist,
@@ -20,7 +18,7 @@ import {
     toggleCollapseClose,
 } from '../../features/viewSlice';
 
-function Navbars() {
+function Navbars(props) {
     const view = useSelector(selectView);
     const dispatch = useDispatch();
 
@@ -47,15 +45,21 @@ function Navbars() {
             </button>
         </Navbar.Toggle>);
     }
-    
+
+    var joinWaitlistButton = (
+        props.fixed ? 
+        <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button> :
+        <div></div>
+    );
+
     return (
         <Router>
-            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed="top">
-                <LinkContainer to="/">
+            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={props.fixed ? "top" : "none"}>
+                <Link to="#header">
                     <Navbar.Brand>
                         <Image src={logo} />
                     </Navbar.Brand>
-                </LinkContainer>
+                </Link>
             
                 {collapseToggle}
 
@@ -68,7 +72,7 @@ function Navbars() {
                     </Nav>
 
                     <Nav className="ml-auto nav">
-                        <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button>
+                        {joinWaitlistButton}
                         {toggle}
                     </Nav>
                 </Navbar.Collapse>

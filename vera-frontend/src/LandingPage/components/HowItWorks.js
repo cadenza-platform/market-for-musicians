@@ -34,7 +34,7 @@ function HowItWorks() {
                     </i>
                 </Col>
             </Row><br/>
-            <Row className="flex-column flex-md-row align-items-md-center">
+            <Row className="flex-column flex-md-row">
                 <Col>
                     <Image className="howitworks-icon" src={coinDataIcon}/>
                 </Col>
