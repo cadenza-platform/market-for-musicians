@@ -28,12 +28,29 @@ function Navbars(props) {
             <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>Artist</Button>
         </div>);
 
+    var navlinks = (
+        <Nav className="mr-auto nav">
+            <Link to="#getting-started" className="nav-link">Getting Started</Link>
+            <Link to="#how-it-works" className="nav-link">How It Works</Link>
+            <Link to="#features" className="nav-link">Features</Link>
+            <Link to="#careers" className="nav-link">Careers</Link>
+        </Nav>
+    );
+
     if (view === "Artist") {
         toggle = (
             <div className="toggle-button-group flex-md-col">
                 <Button variant="outline-secondary" className="toggle-button left" onClick={() => dispatch(toggleFan())}>Fan</Button>
                 <Button variant="outline-secondary" className="toggle-button right selected">Artist</Button>
             </div>);
+        
+        navlinks = (
+            <Nav className="mr-auto nav">
+                <Link to="#artist-features" className="nav-link">Features</Link>
+                <Link to="#artist-how-it-works" className="nav-link">How It Works</Link>
+                <Link to="#artist-contact-us" className="nav-link">Contact Us</Link>
+            </Nav>
+        )
     }
 
     const collapse = useSelector(selectCollapse);
@@ -64,12 +81,7 @@ function Navbars(props) {
                 {collapseToggle}
 
                 <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto nav">
-                        <Link to="#getting-started" className="nav-link">Getting Started</Link>
-                        <Link to="#how-it-works" className="nav-link">How It Works</Link>
-                        <Link to="#features" className="nav-link">Features</Link>
-                        <Link to="#careers" className="nav-link">Careers</Link>
-                    </Nav>
+                    {navlinks}
 
                     <Nav className="ml-auto nav">
                         {joinWaitlistButton}
