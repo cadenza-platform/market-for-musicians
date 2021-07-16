@@ -1,4 +1,4 @@
-import '../styles/Header.css';
+import '../styles/FanHeader.css';
 import {
     Image, 
     Button,
@@ -8,37 +8,37 @@ import {
 } from 'react-bootstrap';
 import laptop from '../styles/images/laptop.png';
 
-function Header() {
+function FanHeader() {
     return(
-        <Container fluid className="header-container" id="header">
+        <Container fluid className="fan-header-container" id="header">
             <Row className="flex-column-reverse flex-md-row" xs={1} md={2}>
-                <Col className="header-text desktop-col">
-                    <h1 className="header-text-title">
+                <Col className="fan-header-text fan-desktop-col">
+                    <h1 className="fan-header-text-title">
                         Bet early on artists.<br/>
                         Prosper together.
                     </h1><br/>
-                    <i className="header-text-body">
+                    <i className="fan-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i><br/><br/><br/>
-                    <Button variant="outline-light" className="join-waitlist-button">JOIN WAITLIST</Button>
+                    <Button variant="outline-light" className="fan-join-waitlist-button">JOIN WAITLIST</Button>
                 </Col>
-                <Col className="desktop-col">
+                <Col className="fan-desktop-col">
                     <Image fluid src={laptop} />
                 </Col>
-                <Col className="mobile-col">
-                    <h1 className="header-text-title">
+                <Col className="fan-mobile-col">
+                    <h1 className="fan-header-text-title">
                         Bet early on artists.<br/>
                         Prosper together.
                     </h1><br/>
-                    <Image fluid src={laptop} className="header-image-mobile"/>
-                    <i className="header-text-body">
+                    <Image fluid src={laptop} className="fan-header-image-mobile"/>
+                    <i className="fan-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i>
-                    <Button variant="outline-light" className="join-waitlist-button">JOIN WAITLIST</Button>
+                    <Button variant="outline-light" className="fan-join-waitlist-button">JOIN WAITLIST</Button>
                 </Col>
             </Row>
         </Container>
     );
 }
 
-export default Header;
+export default FanHeader;

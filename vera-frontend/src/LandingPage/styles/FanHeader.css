@@ -1,54 +1,54 @@
-.header-container {
+.fan-header-container {
     background: linear-gradient(#3B8686, #ACBBA8);
     padding: 10%;
     text-align: left;
     display: flex;
 }
 
-.header-text-title {
+.fan-header-text-title {
     color: white;
     font-size: xxx-large;
     font-weight: bolder;
 }
 
-.header-text-body {
+.fan-header-text-body {
     font-size: large;
 }
 
-.join-waitlist-button {
+.fan-join-waitlist-button {
     font-weight: bolder;
     font-size: x-large;
     color: #3B8686;
     padding: 15px 30px 15px 30px;
 }
 
-.mobile-col {
+.fan-mobile-col {
     display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .mobile-col {
+    .fan-mobile-col {
         display: block;
     }
 
-    .desktop-col {
+    .fan-desktop-col {
         display: none;
     }
 
-    .header-text-title {
+    .fan-header-text-title {
         font-size: 30px;
         line-height: 38px;
     }
 
-    .header-image-mobile {
+    .fan-header-image-mobile {
         padding-bottom: 20px;
     }
 
-    .header-text-body {
+    .fan-header-text-body {
         line-height: 25px;
     }
 
-    .join-waitlist-button {
+    .fan-join-waitlist-button {
         margin-top: 20px;
         font-size: 25px;
         padding: 10px 10px 10px 10px;
