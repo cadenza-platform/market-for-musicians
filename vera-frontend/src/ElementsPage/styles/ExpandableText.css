@@ -11,6 +11,7 @@
     background: none;
     border: none;
     display: inline-flex;
+    padding: 0;
 }
 
 .expandable-text-button-label {
