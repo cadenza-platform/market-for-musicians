@@ -29,6 +29,7 @@
 .artist-feature-title {
     font-weight: 900;
     color: #AEE49E;
+    text-align: left;
 }
 
 .artist-feature-icon {
@@ -38,4 +39,10 @@
 .artist-feature-dropdown {
     width: 100%;
     padding-top: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    .artist-feature-row {
+        padding-bottom: 15%;
+    }
 }
