@@ -1,9 +1,9 @@
-.features-container {
-    background-color: #ffffff;
+.fan-features-container {
+    background-color: #F8F8F8;
     padding: 10%;
 }
 
-.features-header {
+.fan-features-header {
     color: #79bd9a;
     font-weight: 900;
     font-size: 50px;
@@ -13,12 +13,12 @@
     padding-bottom: 20px;
 }
 
-.features-icon {
+.fan-features-icon {
     height: 100px;
     width: auto;
 }
 
-.features-icon-label {
+.fan-features-icon-label {
     padding-top: 10px;
     font-weight: 800;
     font-size: 20px;
@@ -27,7 +27,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .features-header {
+    .fan-features-header {
         font-size: 30px;
         line-height: 38px;
     }

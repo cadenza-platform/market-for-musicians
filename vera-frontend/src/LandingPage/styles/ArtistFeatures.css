@@ -1,0 +1,14 @@
+.artist-features-container {
+    background-color: #373F41;
+    padding: 10%;
+}
+
+.artist-features-header {
+    color: white;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    letter-spacing: 0.2px;
+    text-align: left;
+    padding-bottom: 20px;
+}

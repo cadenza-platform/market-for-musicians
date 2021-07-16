@@ -1,8 +1,8 @@
 import { useContext } from 'react';
 import { Image, Card, Accordion, AccordionContext } from 'react-bootstrap';
 import { useAccordionToggle } from 'react-bootstrap/AccordionToggle';
-import uparrow from '../styles/images/uparrow.png';
-import downarrow from '../styles/images/downarrow.png';
+import uparrow from '../styles/images/uparrow.svg';
+import downarrow from '../styles/images/downarrow.svg';
 import '../styles/Dropdown.css';
 
 function Toggle({ content, eventKey, callback }) {

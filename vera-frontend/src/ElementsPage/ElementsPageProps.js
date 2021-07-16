@@ -32,4 +32,9 @@ const noCaptionNoBorderProps = {
     "filename": logo
 }
 
-export { songcardProps, dropdownProps, noBorderProps, borderProps, noCaptionProps, noCaptionNoBorderProps };
+const expandableTextProps = { 
+    "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a suscipit mi, nec vestibulum nisi. Mauris vel imperdiet ex, quis ultricies sem. Duis rutrum lorem mauris, eu cursus orci cursus non. Curabitur accumsan non nisl nec scelerisque. Integer molestie velit.  Vivamus elementum felis et orci vulputate, et dictum nisi dignissim. Phasellus suscipit nec risus id tempor. Maecenas luctus ut libero et luctus. Proin lobortis est et ante dapibus interdum. Vivamus porta imperdiet egestas. Nulla ultricies commodo urna, et hendrerit lorem lacinia eu. Suspendisse feugiat at nulla vitae dapibus.",
+    "collapsedHeight": 120
+}
+
+export { songcardProps, dropdownProps, noBorderProps, borderProps, noCaptionProps, noCaptionNoBorderProps, expandableTextProps };

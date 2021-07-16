@@ -3,6 +3,7 @@ import Navbars from './components/Navbars';
 import SongCard from './components/SongCard';
 import Dropdown from './components/Dropdown';
 import CaptionedImage from './components/Image';
+import ExpandableText from './components/ExpandableText';
 import './ElementsPage.css';
 import {
     songcardProps,
@@ -10,7 +11,8 @@ import {
     noBorderProps,
     borderProps,
     noCaptionProps,
-    noCaptionNoBorderProps
+    noCaptionNoBorderProps,
+    expandableTextProps
 } from './ElementsPageProps';
 
 function Elements() {
@@ -25,6 +27,9 @@ function Elements() {
                 <CaptionedImage content={borderProps} />
             </div><br/>         
             <Dropdown content={dropdownProps}/><br/>
+            <div className="expandable-text-container">
+                <ExpandableText content={expandableTextProps}/>
+            </div><br/>
             <SongCard song={songcardProps}/><br />
         </div>
     );
