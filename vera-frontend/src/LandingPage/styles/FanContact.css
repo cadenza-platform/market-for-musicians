@@ -1,10 +1,10 @@
-.contact-container {
+.fan-contact-container {
     padding: 10%;
     background-color: #3a3a3a;
     text-align: left;
 }
 
-.contact-header {
+.fan-contact-header {
     font-weight: 900;
     font-size: 50px;
     line-height: 63px;
@@ -13,7 +13,7 @@
     margin-bottom: 20px;
 }
 
-.contact-text {
+.fan-contact-text {
     font-style: italic;
     font-weight: 600;
     font-size: 20px;
@@ -22,7 +22,7 @@
     color: #ffffff;
 }
 
-.contact-button {
+.fan-contact-button {
     padding: 15px;
     font-weight: 900;
     font-size: 20px;
@@ -32,18 +32,18 @@
 }
 
 @media only screen and (max-width: 600px) {
-    .contact-header {
+    .fan-contact-header {
         font-size: 30px;
         line-height: 38px;
     }
 
-    .contact-text {
+    .fan-contact-text {
         font-size: 18px;
         line-height: 23px;
         margin-bottom: 20px;
     }
 
-    .contact-button {
+    .fan-contact-button {
         width: 100%;
         font-size: 25px;
     }

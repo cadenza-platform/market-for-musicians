@@ -4,8 +4,9 @@ import FanHeader from './components/FanHeader';
 import GettingStarted from './components/GettingStarted';
 import HowItWorks from './components/HowItWorks';
 import FanFeatures from './components/FanFeatures';
-import Contact from './components/Contact';
+import FanContact from './components/FanContact';
 import ArtistHeader from './components/ArtistHeader';
+import ArtistContact from './components/ArtistContact';
 
 import { useScrollPercentage } from 'react-scroll-percentage';
 import { useSelector } from 'react-redux';
@@ -21,6 +22,7 @@ function Landing() {
         landingView = (
             <div>
                 <ArtistHeader />
+                <ArtistContact />
             </div>
         );
     } else {
@@ -30,7 +32,7 @@ function Landing() {
                 <GettingStarted />
                 <HowItWorks />
                 <FanFeatures />
-                <Contact />
+                <FanContact />
             </div>
         );
     }
