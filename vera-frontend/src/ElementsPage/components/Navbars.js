@@ -38,7 +38,7 @@ function Navbars(props) {
                 <Link to="#artist-how-it-works" className="nav-link">How It Works</Link>
                 <Link to="#artist-contact-us" className="nav-link">Contact Us</Link>
             </Nav>
-        )
+        );
     }
 
     const collapse = useSelector(selectCollapse);
