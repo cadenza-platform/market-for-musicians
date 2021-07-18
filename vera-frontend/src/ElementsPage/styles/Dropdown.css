@@ -31,3 +31,7 @@
     width: 2%;
     height: 29%;
 }
+
+Button :hover {
+    background: none !important;
+}
