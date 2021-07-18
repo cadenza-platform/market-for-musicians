@@ -5,20 +5,19 @@ import downarrow from '../styles/images/downarrow-white.svg';
 import '../styles/ExpandableText.css';
 
 function ExpandableText(props) {
-    const [isCollapsed, toggle] = useState(true);
+    const [isExpanded, toggle] = useState(false);
 
     return (
         <div className="expandable-text">
-            <div className="expandable-text-body" style={{ height: (isCollapsed ? `${props.content.collapsedHeight}px` : `100%`) }}>
-                {props.content.body}
-            </div>
-            <button className="expandable-text-button" onClick={() => toggle(!isCollapsed)}>
+            <span>{props.content.mainContent}</span>
+            {isExpanded && <span>&nbsp;{props.content.extraContent}</span>}
+            <button className="expandable-text-button" onClick={() => toggle(!isExpanded)}>
                 {
-                    isCollapsed ?
-                    <i className="expandable-text-button-label">Read More</i> :
-                    <i className="expandable-text-button-label">Read Less</i>
+                    isExpanded ?
+                    <i className="expandable-text-button-label">&nbsp;Read Less</i> :
+                    <i className="expandable-text-button-label">&nbsp;Read More</i>
                 }
-                <Image className="expandable-text-arrow" src={isCollapsed ? downarrow : uparrow}/>
+                <Image className="expandable-text-arrow" src={isExpanded ? uparrow : downarrow}/>
             </button>
         </div>
     );
