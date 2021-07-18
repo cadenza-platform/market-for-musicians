@@ -1,19 +1,20 @@
-.artist-contact-container {
+.footer-container {
     background-color: #2C3436;
     width: 100%;
 }
 
-.artist-contact-inner-container {
+.footer-inner-container {
     padding: 50px;
 }
 
-.artist-contact-text-wrapper {
+.footer-text-wrapper {
     padding: 20px;
     border-radius: 10px;
-    background-color: green;
+    /* background-color: green; */
+    margin-bottom: 50px;
 }
 
-.artist-contact-title {
+.footer-title {
     font-weight: 900;
     font-size: 25px;
     color: #ffffff;
@@ -21,41 +22,46 @@
     margin-bottom: 20px;
 }
 
-.artist-contact-subtitle {
+.footer-subtitle {
     font-weight: 600;
     font-size: 20px;
     color: white;
     text-align: left;
 }
 
-.artist-contact-col-right {
+.footer-logo {
+    width: 90%;
+    height: auto;
+}
+
+.footer-col-right {
     float: right;
 }
 
-.artist-contact-col-left {
+.footer-col-left {
     float: left;
     text-align: left;
 }
 
-.artist-contact-button {
+.footer-button {
     font-weight: 900;
     font-size: 18px;
 }
 
-.artist-contact-link {
+.footer-link {
     font-weight: 900;
     font-size: 20px;
     color: #3B8686;
 }
 
-.copyright {
+.footer-copyright {
+    margin-top: 20px;
     font-size: 12px;
     font-weight: 600;
     color: #ffffff;
-    padding-left: 20px;
 }
 
-.artist-contact-col-left .selected {
+.footer-col-left .selected {
     background-color: #3B8686;
     color: #ffffff;
 }

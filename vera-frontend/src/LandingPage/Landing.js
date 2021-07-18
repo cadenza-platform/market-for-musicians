@@ -6,7 +6,7 @@ import HowItWorks from './components/HowItWorks';
 import FanFeatures from './components/FanFeatures';
 import FanContact from './components/FanContact';
 import ArtistHeader from './components/ArtistHeader';
-import ArtistContact from './components/ArtistContact';
+import Footer from '../ElementsPage/components/Footer';
 
 import { useScrollPercentage } from 'react-scroll-percentage';
 import { useSelector } from 'react-redux';
@@ -22,7 +22,6 @@ function Landing() {
         landingView = (
             <div>
                 <ArtistHeader />
-                <ArtistContact />
             </div>
         );
     } else {
@@ -41,6 +40,7 @@ function Landing() {
         <div className="landing-page" ref={scrollRef}>
             <Navbars fixed={scrollPercentage >= 0.30} />
             {landingView}
+            <Footer />
         </div>
     );
 }
