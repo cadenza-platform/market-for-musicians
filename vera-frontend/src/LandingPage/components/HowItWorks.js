@@ -15,7 +15,7 @@ const faqWhatProps = {
 
 const faqHowProps = {
     "header": "How does Vera use NFTs?",
-    "body": "Vera allows you to invest in your favorite artists by purchasing shares of their NFTs, and enables us to securely give you ownership of their music. This is possible because NFTs are unique and certified digital assets stored on the blockchain. While copies of digital items are available for anyone to obtain, NFTs track and provide you with proof of ownership over a digital asset."
+    "body": "Vera allows you to invest in your favorite artists by purchasing shares of their digital records, and enables us to securely give you ownership of their music. This is possible because digital records are unique and certified digital assets stored on the blockchain. While copies of digital music are available for anyone to obtain, Vera’s digital vinyl records track and provide you with proof of ownership over a digital asset."
 }
 
 function HowItWorks() {
@@ -29,8 +29,8 @@ function HowItWorks() {
                 </Col>
                 <Col className="howitworks-text-body">
                     <i>
-                        With Vera, artists can distribute their music in the form of NFTs to the public.
-                        You can invest in your favorite artists by purchasing shares of these NFTs.
+                        With Vera, artists can distribute their music in the form of digital vinyl records to the public. 
+                        You can invest in your favorite artists by purchasing shares of these records.
                     </i>
                 </Col>
             </Row><br/>
