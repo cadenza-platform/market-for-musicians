@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/market-for-musicians/static/css/main.5488321d.chunk.css",
+    "main.js": "/market-for-musicians/static/js/main.de89054f.chunk.js",
+    "main.js.map": "/market-for-musicians/static/js/main.de89054f.chunk.js.map",
+    "runtime-main.js": "/market-for-musicians/static/js/runtime-main.91bd59f2.js",
+    "runtime-main.js.map": "/market-for-musicians/static/js/runtime-main.91bd59f2.js.map",
+    "static/css/2.081f420c.chunk.css": "/market-for-musicians/static/css/2.081f420c.chunk.css",
+    "static/js/2.3dd88ed7.chunk.js": "/market-for-musicians/static/js/2.3dd88ed7.chunk.js",
+    "static/js/2.3dd88ed7.chunk.js.map": "/market-for-musicians/static/js/2.3dd88ed7.chunk.js.map",
+    "static/js/3.8ed0efaf.chunk.js": "/market-for-musicians/static/js/3.8ed0efaf.chunk.js",
+    "static/js/3.8ed0efaf.chunk.js.map": "/market-for-musicians/static/js/3.8ed0efaf.chunk.js.map",
+    "index.html": "/market-for-musicians/index.html",
+    "static/css/2.081f420c.chunk.css.map": "/market-for-musicians/static/css/2.081f420c.chunk.css.map",
+    "static/css/main.5488321d.chunk.css.map": "/market-for-musicians/static/css/main.5488321d.chunk.css.map",
+    "static/js/2.3dd88ed7.chunk.js.LICENSE.txt": "/market-for-musicians/static/js/2.3dd88ed7.chunk.js.LICENSE.txt",
+    "static/media/advanced-search-icon.ae0ed2da.svg": "/market-for-musicians/static/media/advanced-search-icon.ae0ed2da.svg",
+    "static/media/analytics-icon.b6a1f133.svg": "/market-for-musicians/static/media/analytics-icon.b6a1f133.svg",
+    "static/media/coin-data-icon.6f70810e.svg": "/market-for-musicians/static/media/coin-data-icon.6f70810e.svg",
+    "static/media/creative-freedom-icon.1b15a22f.svg": "/market-for-musicians/static/media/creative-freedom-icon.1b15a22f.svg",
+    "static/media/downarrow-white.913a93cf.svg": "/market-for-musicians/static/media/downarrow-white.913a93cf.svg",
+    "static/media/downarrow.ff9ac1d7.svg": "/market-for-musicians/static/media/downarrow.ff9ac1d7.svg",
+    "static/media/flexible-exchange-icon.b838909d.svg": "/market-for-musicians/static/media/flexible-exchange-icon.b838909d.svg",
+    "static/media/footer-background.ff39602a.png": "/market-for-musicians/static/media/footer-background.ff39602a.png",
+    "static/media/invest-icon.f2ba5c5e.svg": "/market-for-musicians/static/media/invest-icon.f2ba5c5e.svg",
+    "static/media/investment-icon.cb0b2ae2.svg": "/market-for-musicians/static/media/investment-icon.cb0b2ae2.svg",
+    "static/media/laptop-icon.83da05f2.svg": "/market-for-musicians/static/media/laptop-icon.83da05f2.svg",
+    "static/media/laptop.53af3569.png": "/market-for-musicians/static/media/laptop.53af3569.png",
+    "static/media/recommendations-icon.85a98d21.svg": "/market-for-musicians/static/media/recommendations-icon.85a98d21.svg",
+    "static/media/trade-icon.b5aac8a9.svg": "/market-for-musicians/static/media/trade-icon.b5aac8a9.svg",
+    "static/media/uparrow-white.e7a9a8cd.svg": "/market-for-musicians/static/media/uparrow-white.e7a9a8cd.svg",
+    "static/media/uparrow.31cf0932.svg": "/market-for-musicians/static/media/uparrow.31cf0932.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.91bd59f2.js",
+    "static/css/2.081f420c.chunk.css",
+    "static/js/2.3dd88ed7.chunk.js",
+    "static/css/main.5488321d.chunk.css",
+    "static/js/main.de89054f.chunk.js"
+  ]
+}
