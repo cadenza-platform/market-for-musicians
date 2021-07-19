@@ -32,6 +32,10 @@
     border: 0px;
 }
 
+.nav .toggle-button-group .toggle-button {
+    color: #373F41;
+}
+
 @media only screen and (max-width: 768px) {
     .navbar {
         display: flex;

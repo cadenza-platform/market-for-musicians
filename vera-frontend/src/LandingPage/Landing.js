@@ -21,28 +21,30 @@ function Landing() {
 
     if (view === "Artist") {
         landingView = (
-            <div>
+            <div className="artist-view">
+                <Navbars fixed={scrollPercentage >= 0.30} />
                 <ArtistHeader />
                 <ArtistFeatures />
+                <Footer />
             </div>
         );
     } else {
         landingView = (
-            <div>
+            <div className="fan-view">
+                <Navbars fixed={scrollPercentage >= 0.30} />
                 <FanHeader />
                 <GettingStarted />
                 <HowItWorks />
                 <FanFeatures />
                 <FanContact />
+                <Footer />
             </div>
         );
     }
 
     return (
         <div className="landing-page" ref={scrollRef}>
-            <Navbars fixed={scrollPercentage >= 0.30} />
             {landingView}
-            <Footer />
         </div>
     );
 }
