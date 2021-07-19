@@ -1,5 +1,6 @@
 {
   "name": "vera-frontend",
+  "homepage": "https://anish-krishnan.github.io/market-for-musicians",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -15,12 +16,14 @@
     "react-router-bootstrap": "^0.25.0",
     "react-router-dom": "^5.2.0",
     "react-router-hash-link": "^2.4.3",
-    "react-scripts": "4.0.3",
+    "react-scripts": "^4.0.3",
     "react-scroll-percentage": "^4.2.0",
     "sass": "^1.35.1",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,5 +46,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^3.2.3"
   }
 }
