@@ -23,7 +23,7 @@ function Footer() {
                         Want your gift to also be an investment in your favorite artists?
                     </h1>
                     <Row>
-                        <Col xs={7}>
+                        <Col md={7} xs={12}>
                             <p className="footer-subtitle">
                                 Sign up to get notified when VERA launches!
                             </p>
@@ -34,18 +34,22 @@ function Footer() {
                     </Row>
                 </Container>
                 <Router>
-                    <Row>
-                        <Col xs={2}>
+                    <Row xs={1} md={4} className="footer-row">
+                        <Col md={2}>
                             <Image src={logo} className="footer-logo" />
                         </Col>
-                        <Col className="footer-col-left" xs={6}>
-                            <UserToggle className="test-test" />
+                        <Col className="footer-col-left d-flex justify-content-center justify-content-md-start" md={6}>
+                            <UserToggle />
                         </Col>
-                        <Col xs={2}>
-                            <Link className="footer-link">Contact</Link>
-                        </Col>
-                        <Col xs={2}>
-                            <Link className="footer-link">Career</Link>
+                        <Col md={4}>
+                            <Row>
+                                <Col>
+                                    <Link className="footer-link">Contact</Link>
+                                </Col>
+                                <Col>
+                                    <Link className="footer-link">Career</Link>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
                     <Row>

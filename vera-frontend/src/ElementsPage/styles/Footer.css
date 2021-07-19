@@ -4,13 +4,12 @@
 }
 
 .footer-inner-container {
-    padding: 50px;
+    padding: 25px;
 }
 
 .footer-text-wrapper {
     padding: 20px;
     border-radius: 10px;
-    /* background-color: green; */
     margin-bottom: 50px;
 }
 
@@ -66,3 +65,24 @@
     color: #ffffff;
 }
 
+@media only screen and (max-width: 600px) {
+    .footer-title {
+        font-size: 18px;
+    }
+
+    .footer-subtitle {
+        font-size: 16px;
+    }
+
+    .footer-row {
+        text-align: center;
+    }
+
+    .footer-col-left {
+        padding-bottom: 20px;
+    }
+
+    .footer-copyright {
+        text-align: center;
+    }
+}
