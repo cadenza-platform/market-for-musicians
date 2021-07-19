@@ -12,6 +12,7 @@ import {
 import '../styles/Footer.css';
 import logo from "../styles/images/logo-white.png";
 import background from "../styles/images/footer-background.png"
+import backgroundMobile from "../styles/images/footer-background-mobile.png";
 import UserToggle from './UserToggle';
 
 function Footer() {
@@ -33,6 +34,23 @@ function Footer() {
                         </Col>
                     </Row>
                 </Container>
+
+                <Container className="footer-text-wrapper-mobile" style={{ backgroundImage: `url(${backgroundMobile})` }}>
+                    <h1 className="footer-title">
+                        Want your gift to also be an investment in your favorite artists?
+                    </h1>
+                    <Row>
+                        <Col md={7} xs={12}>
+                            <p className="footer-subtitle">
+                                Sign up to get notified when VERA launches!
+                            </p>
+                        </Col>
+                        <Col className="footer-col-right">
+                            <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+                        </Col>
+                    </Row>
+                </Container>
+
                 <Router>
                     <Row xs={1} md={4} className="footer-row">
                         <Col md={2}>

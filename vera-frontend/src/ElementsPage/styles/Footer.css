@@ -65,6 +65,10 @@
     color: #ffffff;
 }
 
+.footer-text-wrapper-mobile {
+    display: none;
+}
+
 @media only screen and (max-width: 600px) {
     .footer-title {
         font-size: 18px;
@@ -84,5 +88,16 @@
 
     .footer-copyright {
         text-align: center;
+    }
+
+    .footer-text-wrapper {
+        display: none;
+    }
+
+    .footer-text-wrapper-mobile {
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        display: block;
     }
 }
