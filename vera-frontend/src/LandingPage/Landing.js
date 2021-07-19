@@ -7,6 +7,7 @@ import FanFeatures from './components/FanFeatures';
 import FanContact from './components/FanContact';
 import ArtistHeader from './components/ArtistHeader';
 import Footer from '../ElementsPage/components/Footer';
+import ArtistFeatures from './components/ArtistFeatures';
 
 import { useScrollPercentage } from 'react-scroll-percentage';
 import { useSelector } from 'react-redux';
@@ -18,10 +19,11 @@ function Landing() {
     const view = useSelector(selectView);
     var landingView;
 
-    if (view == "Artist") {
+    if (view === "Artist") {
         landingView = (
             <div>
                 <ArtistHeader />
+                <ArtistFeatures />
             </div>
         );
     } else {
