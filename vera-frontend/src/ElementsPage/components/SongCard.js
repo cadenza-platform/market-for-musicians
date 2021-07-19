@@ -6,7 +6,7 @@ import {
     Button
 } from 'react-bootstrap';
 import '../styles/SongCard.css';
-import uparrow from '../styles/images/uparrow.png';
+import uparrow from '../styles/images/uparrow.svg';
 
 function SongCard(props) {
 

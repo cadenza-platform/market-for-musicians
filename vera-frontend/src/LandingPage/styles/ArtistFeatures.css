@@ -1,0 +1,48 @@
+.artist-features-container {
+    background-color: #373F41;
+    padding: 10%;
+}
+
+.artist-features-header {
+    color: white;
+    font-weight: 900;
+    font-size: 60px;
+    line-height: 63px;
+    letter-spacing: 0.2px;
+    padding-bottom: 5%;
+    text-align: left;
+    margin: 0;
+}
+
+.artist-feature-row {
+    justify-content: space-around;
+    padding-bottom: 5%;
+}
+
+.artist-feature-description {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.artist-feature-title {
+    font-weight: 900;
+    color: #AEE49E;
+    text-align: left;
+}
+
+.artist-feature-icon {
+    height: 200px;
+}
+
+.artist-feature-dropdown {
+    width: 100%;
+    padding-top: 2%;
+}
+
+@media only screen and (max-width: 768px) {
+    .artist-feature-row {
+        padding-bottom: 15%;
+    }
+}

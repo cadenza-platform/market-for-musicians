@@ -1,0 +1,26 @@
+.expandable-text {
+    text-align: left;
+    color: white;
+}
+
+.expandable-text-body {
+    overflow-y: hidden;
+}
+
+.expandable-text-button {
+    background: none;
+    border: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.expandable-text-button-label {
+    color: white;
+    margin: 0;
+    font-weight: 900;
+}
+
+.expandable-text-arrow {
+    padding-left: 2%;
+    width: 15%;
+}
