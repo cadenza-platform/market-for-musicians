@@ -9,12 +9,12 @@ import '../styles/HowItWorks.css';
 import coinDataIcon from '../styles/images/coin-data-icon.svg';
 
 const faqWhatProps = {
-    "header": "What’s a NFT (non-fungible token)?",
-    "body": "Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Non-Fungible Tokens do this for digital creations like art, games, and in our case, music."
+    "header": "What’s a DVR (digital vinyl record)?",
+    "body": "Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Digital Vinyl Records do this for digital creations like art, games, and in our case, music."
 }
 
 const faqHowProps = {
-    "header": "How does Vera use NFTs?",
+    "header": "How does DVR work?",
     "body": "Vera allows you to invest in your favorite artists by purchasing shares of their digital records, and enables us to securely give you ownership of their music. This is possible because digital records are unique and certified digital assets stored on the blockchain. While copies of digital music are available for anyone to obtain, Vera’s digital vinyl records track and provide you with proof of ownership over a digital asset."
 }
 

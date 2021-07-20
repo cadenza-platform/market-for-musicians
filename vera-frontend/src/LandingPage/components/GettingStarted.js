@@ -55,7 +55,7 @@ function GettingStarted() {
                     <Image className="gettingstarted-image" src={investIcon} />
                     <p className="gettingstarted-text">
                         Invest in musicians<br/>
-                        by purchasing NFTs
+                        by purchasing digital records
                     </p>
                 </div>
                 <div className="gettingstarted-mobile-icon-group">
@@ -70,7 +70,7 @@ function GettingStarted() {
                     <p className="gettingstarted-header">4.  Trade</p>
                     <Image className="gettingstarted-image" src={tradeIcon} />
                     <p className="gettingstarted-text">
-                        Trade your NFTs &<br/>
+                        Trade your virtual records &<br/>
                         expand your portfolio
                     </p>
                 </div>
