@@ -9,9 +9,9 @@ import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
 import { useSelector, useDispatch } from 'react-redux';
+
+import UserToggle from './UserToggle';
 import {
-    toggleArtist,
-    toggleFan,
     selectView,
     selectCollapse,
     toggleCollapseOpen,
@@ -21,12 +21,6 @@ import {
 function Navbars(props) {
     const view = useSelector(selectView);
     const dispatch = useDispatch();
-
-    var toggle = (
-        <div className="toggle-button-group flex-md-col">
-            <Button variant="outline-secondary" className="toggle-button left selected">Fan</Button>
-            <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>Artist</Button>
-        </div>);
 
     var navlinks = (
         <Nav className="mr-auto nav">
@@ -38,29 +32,25 @@ function Navbars(props) {
     );
 
     if (view === "Artist") {
-        toggle = (
-            <div className="toggle-button-group flex-md-col">
-                <Button variant="outline-secondary" className="toggle-button left" onClick={() => dispatch(toggleFan())}>Fan</Button>
-                <Button variant="outline-secondary" className="toggle-button right selected">Artist</Button>
-            </div>);
-        
         navlinks = (
             <Nav className="mr-auto nav">
                 <Link to="#artist-features" className="nav-link">Features</Link>
                 <Link to="#artist-how-it-works" className="nav-link">How It Works</Link>
                 <Link to="#artist-contact-us" className="nav-link">Contact Us</Link>
             </Nav>
-        )
+        );
     }
 
     const collapse = useSelector(selectCollapse);
     var collapseToggle = (<Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle-open" onClick={() => dispatch(toggleCollapseOpen())} />);
     if (collapse === 'open') {
-        collapseToggle = (<Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle-close" onClick={() => dispatch(toggleCollapseClose())}>
-            <button type="button" className="close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </Navbar.Toggle>);
+        collapseToggle = (
+            <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle-close" onClick={() => dispatch(toggleCollapseClose())}>
+                <button type="button" className="close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </Navbar.Toggle>
+        );
     }
 
     var joinWaitlistButton = (
@@ -85,7 +75,7 @@ function Navbars(props) {
 
                     <Nav className="ml-auto nav">
                         {joinWaitlistButton}
-                        {toggle}
+                        <UserToggle />
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

@@ -23,32 +23,6 @@
     border: 0px;
 }
 
-.toggle-button {
-    border: 1px;
-    font-size: 14px;
-    border: 0.5px solid #c4c4c4;
-}
-
-.toggle-button:focus {
-    outline: none;
-    box-shadow: none;
-}
-
-.left {
-    border-radius: 5px 0px 0px 5px;
-    border-right: none;
-}
-
-.right {
-    border-radius: 0px 5px 5px 0px;
-    border-left: none;
-}
-
-.selected {
-    background-color: #c4c4c4;
-    color: #ffffff;
-}
-
 .nav-join-waitlist-button {
     margin-right: 25px;
     color: #3B8686;
@@ -56,6 +30,10 @@
 
 .navbar-toggler {
     border: 0px;
+}
+
+.nav .toggle-button-group .toggle-button {
+    color: #373F41;
 }
 
 @media only screen and (max-width: 768px) {

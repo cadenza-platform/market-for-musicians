@@ -4,8 +4,9 @@ import FanHeader from './components/FanHeader';
 import GettingStarted from './components/GettingStarted';
 import HowItWorks from './components/HowItWorks';
 import FanFeatures from './components/FanFeatures';
-import Contact from './components/Contact';
+import FanContact from './components/FanContact';
 import ArtistHeader from './components/ArtistHeader';
+import Footer from '../ElementsPage/components/Footer';
 import ArtistFeatures from './components/ArtistFeatures';
 
 import { useScrollPercentage } from 'react-scroll-percentage';
@@ -20,26 +21,29 @@ function Landing() {
 
     if (view === "Artist") {
         landingView = (
-            <div>
+            <div className="artist-view">
+                <Navbars fixed={scrollPercentage >= 0.30} />
                 <ArtistHeader />
                 <ArtistFeatures />
+                <Footer />
             </div>
         );
     } else {
         landingView = (
-            <div>
+            <div className="fan-view">
+                <Navbars fixed={scrollPercentage >= 0.30} />
                 <FanHeader />
                 <GettingStarted />
                 <HowItWorks />
                 <FanFeatures />
-                <Contact />
+                <FanContact />
+                <Footer />
             </div>
         );
     }
 
     return (
         <div className="landing-page" ref={scrollRef}>
-            <Navbars fixed={scrollPercentage >= 0.30} />
             {landingView}
         </div>
     );
