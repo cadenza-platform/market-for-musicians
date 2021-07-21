@@ -1,6 +1,6 @@
 .fan-contact-container {
     padding: 10%;
-    background-color: #3a3a3a;
+    background-color: #79BD9A;
     text-align: left;
 }
 
@@ -27,8 +27,10 @@
     font-weight: 900;
     font-size: 20px;
     letter-spacing: 0.2px;
-    border: 2px solid #c4c4c4;
     border-radius: 5px;
+    background-color: #3B8686;
+    color: #ffffff;
+    border: 0px;
 }
 
 @media only screen and (max-width: 600px) {

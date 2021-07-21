@@ -8,7 +8,7 @@ const songcardProps = {
 };
 
 const dropdownProps = {
-    "header": "What’s a NFT (non-fungible token)?",
+    "header": "What’s a DVR (digital vinyl record)?",
     "body": "Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Non-Fungible Tokens do this for digital creations like art, games, and in our case, music."
 };
 

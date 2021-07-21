@@ -60,9 +60,12 @@
     color: #ffffff;
 }
 
-.footer-col-left .selected {
-    background-color: #3B8686;
-    color: #ffffff;
+.footer-text-wrapper-mobile {
+    display: none;
+}
+
+.footer-col-left .toggle-button-group .toggle-button {
+    color: #ffffff
 }
 
 @media only screen and (max-width: 600px) {
@@ -84,5 +87,16 @@
 
     .footer-copyright {
         text-align: center;
+    }
+
+    .footer-text-wrapper {
+        display: none;
+    }
+
+    .footer-text-wrapper-mobile {
+        padding: 20px;
+        border-radius: 10px;
+        margin-bottom: 50px;
+        display: block;
     }
 }

@@ -18,13 +18,13 @@ const expandableTextProps = {
 }
 
 const faqWhatProps = {
-    "header": "What’s a NFT (non-fungible token)?",
+    "header": "What’s a DVR (digital vinyl record)?",
     "body": "Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Non-Fungible Tokens do this for digital creations like art, games, and in our case, music."
 }
 
 const faqHowProps = {
-    "header": "How does Vera use NFTs?",
-    "body": "Vera allows you to invest in your favorite artists by purchasing shares of their NFTs, and enables us to securely give you ownership of their music. This is possible because NFTs are unique and certified digital assets stored on the blockchain. While copies of digital items are available for anyone to obtain, NFTs track and provide you with proof of ownership over a digital asset."
+    "header": "How does DVR work?",
+    "body": "Vera allows you to invest in your favorite artists by purchasing shares of their digital vinyl records, and enables us to securely give you ownership of their music. This is possible because these records are unique and certified digital assets stored on the blockchain. While copies of digital items are available for anyone to obtain, Digital vinyl records track and provide you with proof of ownership over the asset."
 }
 
 function ArtistFeatures() {
