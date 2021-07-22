@@ -21,7 +21,21 @@
     background-color: #3B8686;
     color: white;
     padding: 15px 30px 15px 30px;
-    border: none;
+    border: 3px solid #3B8686 !important;
+    border-radius: 10px;
+}
+
+.fan-join-waitlist-button:hover {
+    color: #3B8686;
+    background-color: white;
+}
+
+.fan-join-waitlist-button:active {
+    color: #3B8686 !important;
+}
+
+.fan-join-waitlist-button:focus {
+    box-shadow: none !important;
 }
 
 .fan-mobile-col {
