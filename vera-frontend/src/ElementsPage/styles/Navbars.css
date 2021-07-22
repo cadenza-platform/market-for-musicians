@@ -26,6 +26,11 @@
 .nav-join-waitlist-button {
     margin-right: 25px;
     color: #3B8686;
+    border-radius: 10px;
+}
+
+.nav-join-waitlist-button:focus {
+    box-shadow: none !important;
 }
 
 .navbar-toggler {

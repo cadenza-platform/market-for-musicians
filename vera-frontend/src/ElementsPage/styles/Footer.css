@@ -35,6 +35,7 @@
 
 .footer-col-right {
     float: right;
+    text-align: right;
 }
 
 .footer-col-left {
@@ -45,12 +46,22 @@
 .footer-button {
     font-weight: 900;
     font-size: 18px;
+    border-radius: 10px;
+}
+
+.footer-button:focus {
+    box-shadow: none !important;
 }
 
 .footer-link {
     font-weight: 900;
     font-size: 20px;
     color: #3B8686;
+}
+
+.footer-link:hover {
+    color: #3B8686;
+    text-decoration: none;
 }
 
 .footer-copyright {

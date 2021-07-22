@@ -6,8 +6,7 @@ import {
     Image
 } from 'react-bootstrap';
 import { 
-    BrowserRouter as Router,
-    Link
+    BrowserRouter as Router
 } from "react-router-dom";
 import '../styles/Footer.css';
 import logo from "../styles/images/logo-white.png";
@@ -61,11 +60,11 @@ function Footer() {
                         </Col>
                         <Col md={4}>
                             <Row>
-                                <Col>
-                                    <Link className="footer-link">Contact</Link>
+                                <Col className="footer-col-right">
+                                    <a href="mailto:anishtech1@gmail.com?subject=Contact Vera" className="footer-link">Contact</a>
                                 </Col>
-                                <Col>
-                                    <Link className="footer-link">Career</Link>
+                                <Col className="footer-col-right">
+                                    <a href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" className="footer-link">Career</a>
                                 </Col>
                             </Row>
                         </Col>
