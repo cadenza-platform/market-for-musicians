@@ -22,7 +22,7 @@ function Landing() {
     if (view === "Artist") {
         landingView = (
             <div className="artist-view">
-                <Navbars fixed={scrollPercentage >= 0.30} />
+                <Navbars fixed={scrollPercentage >= 0.40} />
                 <ArtistHeader />
                 <ArtistFeatures />
                 <Footer />

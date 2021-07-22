@@ -4,28 +4,11 @@ import {
     Col,
     Image
 } from 'react-bootstrap';
-import ExpandableText from '../../ElementsPage/components/ExpandableText';
-import Dropdown from '../../ElementsPage/components/Dropdown';
 import recommendationsIcon from '../styles/images/recommendations-icon.svg';
 import creativeFreedomIcon from '../styles/images/creative-freedom-icon.svg';
 import analyticsIcon from '../styles/images/analytics-icon.svg';
 import flexibleExchangeIcon from '../styles/images/flexible-exchange-icon.svg';
 import '../styles/ArtistFeatures.css';
-
-const expandableTextProps = {
-    "mainContent": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a suscipit mi, nec vestibulum nisi. Mauris vel imperdiet ex, quis ultricies sem. Duis rutrum lorem mauris, eu cursus orci cursus non. Curabitur accumsan non nisl nec scelerisque. Integer molestie velit.",
-    "extraContent": "Vivamus elementum felis et orci vulputate, et dictum nisi dignissim. Phasellus suscipit nec risus id tempor. Maecenas luctus ut libero et luctus. Proin lobortis est et ante dapibus interdum. Vivamus porta imperdiet egestas. Nulla ultricies commodo urna, et hendrerit lorem lacinia eu. Suspendisse feugiat at nulla vitae dapibus."
-}
-
-const faqWhatProps = {
-    "header": "What’s a DVR (digital vinyl record)?",
-    "body": "Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Non-Fungible Tokens do this for digital creations like art, games, and in our case, music."
-}
-
-const faqHowProps = {
-    "header": "How does DVR work?",
-    "body": "Vera allows you to invest in your favorite artists by purchasing shares of their digital vinyl records, and enables us to securely give you ownership of their music. This is possible because these records are unique and certified digital assets stored on the blockchain. While copies of digital items are available for anyone to obtain, Digital vinyl records track and provide you with proof of ownership over the asset."
-}
 
 function ArtistFeatures() {
     return (
@@ -39,7 +22,9 @@ function ArtistFeatures() {
                     <h2 className="artist-feature-title">
                         Crowd Sourced Revenue
                     </h2>
-                    <ExpandableText content={expandableTextProps}/>
+                    <p className="artist-feature-body">
+                        Vera allows you to unlock a new stream of revenue by tapping into your fanbase for trusted investment. By distributing assets such as music and special content to the public, you can provide an unparalleled level of interaction with your fans.
+                    </p>
                 </Col>
             </Row>
             <Row className="artist-feature-row">
@@ -50,7 +35,9 @@ function ArtistFeatures() {
                     <h2 className="artist-feature-title">
                         Creative Freedom
                     </h2>
-                    <ExpandableText content={expandableTextProps}/>
+                    <p className="artist-feature-body">
+                        Our goal at Vera is to preserve your creative freedom while creating new opportunities using our crowd funding model. We want you to keep making music that we all love, and we’re here to support you along the way.
+                    </p>
                 </Col>
             </Row>
             <Row className="artist-feature-row">
@@ -61,7 +48,9 @@ function ArtistFeatures() {
                     <h2 className="artist-feature-title">
                         Visual Analytics
                     </h2>
-                    <ExpandableText content={expandableTextProps}/>
+                    <p className="artist-feature-body">
+                        Vera provides detailed analytics and performance details of DVRs that you have distributed to the public. Our straightforward interface allows you to track user engagement in addition to transactional information on your DVRs.
+                    </p>
                 </Col>
             </Row>
             <Row className="artist-feature-row">
@@ -72,13 +61,9 @@ function ArtistFeatures() {
                     <h2 className="artist-feature-title">
                         Flexible Exchange
                     </h2>
-                    <ExpandableText content={expandableTextProps}/>
-                    <div className="artist-feature-dropdown">
-                        <Dropdown content={faqWhatProps}/>
-                    </div>
-                    <div className="artist-feature-dropdown">
-                        <Dropdown content={faqHowProps}/>
-                    </div>
+                    <p className="artist-feature-body">
+                        Vera’s flexible exchange is a secure and regulated marketplace in which your DVRs can be transacted in a safe and efficient manner.
+                    </p>
                 </Col>
             </Row>
         </Container>

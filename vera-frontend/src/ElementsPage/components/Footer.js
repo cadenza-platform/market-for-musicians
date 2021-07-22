@@ -16,7 +16,7 @@ import UserToggle from './UserToggle';
 
 function Footer() {
     return (
-        <Container fluid className="footer-container">
+        <Container fluid className="footer-container" id="footer">
             <Container className="footer-inner-container">
                 <Container className="footer-text-wrapper" style={{ backgroundImage: `url(${background})` }}>
                     <h1 className="footer-title">
