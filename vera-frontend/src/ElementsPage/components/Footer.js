@@ -55,7 +55,7 @@ function Footer() {
                         <Col md={2}>
                             <Image src={logo} className="footer-logo" />
                         </Col>
-                        <Col className="footer-col-left d-flex justify-content-center justify-content-md-start" md={6}>
+                        <Col className="footer-col-left d-flex justify-content-center justify-content-md-start fan-artist-toggle" md={6}>
                             <UserToggle />
                         </Col>
                         <Col md={4}>
