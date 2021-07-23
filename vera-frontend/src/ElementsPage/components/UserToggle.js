@@ -15,15 +15,15 @@ function UserToggle() {
     if (view === "Artist") {
         return (
             <div className="toggle-button-group flex-md-col">
-                <Button variant="outline" className="toggle-button left" onClick={() => dispatch(toggleFan())}>Fan</Button>
-                <Button variant="outline" className="toggle-button right selected">Artist</Button>
+                <Button variant="outline" className="toggle-button left" onClick={() => dispatch(toggleFan())}>For Fans</Button>
+                <Button variant="outline" className="toggle-button right selected">For Artists</Button>
             </div>
         );
     } else {
         return (
             <div className="toggle-button-group flex-md-col">
-                <Button variant="outline-secondary" className="toggle-button left selected">Fan</Button>
-                <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>Artist</Button>
+                <Button variant="outline-secondary" className="toggle-button left selected">For Fans</Button>
+                <Button variant="outline-secondary" className="toggle-button right" onClick={() => dispatch(toggleArtist())}>For Artists</Button>
             </div>
         );
     }
