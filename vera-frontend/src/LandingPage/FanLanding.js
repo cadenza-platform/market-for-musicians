@@ -1,5 +1,5 @@
 import './styles/Landing.css';
-import Navbars from '../ElementsPage/components/Navbars';
+import FanNavbar from '../ElementsPage/components/FanNavbar';
 import FanHeader from './components/FanHeader';
 import GettingStarted from './components/GettingStarted';
 import HowItWorks from './components/HowItWorks';
@@ -14,7 +14,7 @@ function Landing() {
 
     return (
         <div className="landing-page fan-view" ref={scrollRef}>
-            <Navbars fixed={scrollPercentage >= 0.30} />
+            <FanNavbar fixed={scrollPercentage >= 0.30} />
             <FanHeader />
             <GettingStarted />
             <HowItWorks />

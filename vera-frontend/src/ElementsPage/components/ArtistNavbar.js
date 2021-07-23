@@ -10,7 +10,7 @@ import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
 import { useSelector, useDispatch } from 'react-redux';
 
-import UserToggle from './UserToggle';
+import ArtistUserToggle from './ArtistUserToggle';
 import {
     selectView,
     selectCollapse,
@@ -55,7 +55,7 @@ function Navbars(props) {
     var trailingContent = (
         props.fixed ? 
         <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button> :
-        <UserToggle/>
+        <ArtistUserToggle/>
     );
 
     return (
@@ -70,7 +70,10 @@ function Navbars(props) {
                 {collapseToggle}
 
                 <Navbar.Collapse id="basic-navbar-nav">
-                    {navlinks}
+                    <Nav className="mr-auto nav">
+                        <Link to="#features" className="nav-link">Features</Link>
+                        <Link to="#footer" className="nav-link">Contact Us</Link>
+                    </Nav>
 
                     <Nav className="ml-auto nav">
                         {trailingContent}

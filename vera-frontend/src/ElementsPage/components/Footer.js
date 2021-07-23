@@ -12,7 +12,7 @@ import '../styles/Footer.css';
 import logo from "../styles/images/logo-white.png";
 import background from "../styles/images/footer-background.png"
 import backgroundMobile from "../styles/images/footer-background-mobile.png";
-import UserToggle from './UserToggle';
+import UserToggle from './FanUserToggle';
 
 function Footer() {
     return (

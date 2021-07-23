@@ -1,5 +1,5 @@
 import './styles/Landing.css';
-import Navbars from '../ElementsPage/components/Navbars';
+import ArtistNavbar from '../ElementsPage/components/ArtistNavbar';
 import ArtistHeader from './components/ArtistHeader';
 import Footer from '../ElementsPage/components/Footer';
 import ArtistFeatures from './components/ArtistFeatures';
@@ -11,7 +11,7 @@ function Landing() {
 
     return (
         <div className="landing-page artist-view" ref={scrollRef}>
-            <Navbars fixed={scrollPercentage >= 0.40} />
+            <ArtistNavbar fixed={scrollPercentage >= 0.40} />
             <ArtistHeader />
             <ArtistFeatures />
             <Footer />
