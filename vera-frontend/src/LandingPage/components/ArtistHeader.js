@@ -23,7 +23,7 @@ function ArtistHeader() {
                     <i className="artist-header-text-body">
                         A decentralized record label for a more sustainable future
                     </i><br/><br/><br/>
-                    <Button variant="light" className="artist-join-waitlist-button">JOIN WAITLIST</Button>
+                    <Button variant="outline-light" className="artist-join-waitlist-button">JOIN ARTIST WAITLIST</Button>
                 </Col>
                 <Col className="artist-desktop-col">
                     <Image fluid src={laptop} />

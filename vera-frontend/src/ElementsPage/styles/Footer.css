@@ -1,16 +1,27 @@
 .footer-container {
     background-color: #2C3436;
     width: 100%;
+    padding: 0;
+    margin: 0;
 }
 
 .footer-inner-container {
-    padding: 25px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    margin: 0;
+    max-width: none;
 }
 
 .footer-text-wrapper {
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 50px;
+    background-size: cover;
+    margin-left: 0;
+    margin-right: 0;
+    max-width: none;
 }
 
 .footer-title {
@@ -35,6 +46,7 @@
 
 .footer-col-right {
     float: right;
+    text-align: right;
 }
 
 .footer-col-left {
@@ -45,12 +57,25 @@
 .footer-button {
     font-weight: 900;
     font-size: 18px;
+    border-radius: 10px;
+}
+
+.footer-button:focus {
+    box-shadow: none !important;
 }
 
 .footer-link {
     font-weight: 900;
     font-size: 20px;
     color: #3B8686;
+    transition: opacity 300ms;
+    transition-timing-function: ease-out;
+}
+
+.footer-link:hover {
+    opacity: 65%;
+    color: #3B8686;
+    text-decoration: none;
 }
 
 .footer-copyright {
@@ -68,7 +93,7 @@
     color: #ffffff
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .footer-title {
         font-size: 18px;
     }
@@ -85,6 +110,11 @@
         padding-bottom: 20px;
     }
 
+    .footer-col-right {
+        float: right;
+        text-align: center;
+    }
+
     .footer-copyright {
         text-align: center;
     }
@@ -98,5 +128,10 @@
         border-radius: 10px;
         margin-bottom: 50px;
         display: block;
+        background-size: cover;
+    }
+
+    .fan-artist-toggle {
+        padding-top: 20px;
     }
 }

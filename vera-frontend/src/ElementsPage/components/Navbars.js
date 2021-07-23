@@ -34,9 +34,8 @@ function Navbars(props) {
     if (view === "Artist") {
         navlinks = (
             <Nav className="mr-auto nav">
-                <Link to="#artist-features" className="nav-link">Features</Link>
-                <Link to="#artist-how-it-works" className="nav-link">How It Works</Link>
-                <Link to="#artist-contact-us" className="nav-link">Contact Us</Link>
+                <Link to="#features" className="nav-link">Features</Link>
+                <Link to="#footer" className="nav-link">Contact Us</Link>
             </Nav>
         );
     }
@@ -53,10 +52,10 @@ function Navbars(props) {
         );
     }
 
-    var joinWaitlistButton = (
+    var trailingContent = (
         props.fixed ? 
         <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button> :
-        <div></div>
+        <UserToggle/>
     );
 
     return (
@@ -74,8 +73,7 @@ function Navbars(props) {
                     {navlinks}
 
                     <Nav className="ml-auto nav">
-                        {joinWaitlistButton}
-                        <UserToggle />
+                        {trailingContent}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>

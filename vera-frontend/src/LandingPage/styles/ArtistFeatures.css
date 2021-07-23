@@ -32,6 +32,11 @@
     text-align: left;
 }
 
+.artist-feature-body {
+    text-align: left;
+    color: white;
+}
+
 .artist-feature-icon {
     height: 200px;
 }

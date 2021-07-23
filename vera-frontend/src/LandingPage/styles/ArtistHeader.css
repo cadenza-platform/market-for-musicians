@@ -27,7 +27,23 @@
     color: white;
     background-color: #AEE49E;
     padding: 15px 30px 15px 30px;
-    border: 0px;
+    border: 3px solid #AEE49E !important;
+    border-radius: 10px;
+}
+
+.artist-join-waitlist-button:hover {
+    color: #AEE49E !important;
+    border-color: white !important;
+    background: none;
+}
+
+.artist-join-waitlist-button:active {
+    color: #AEE49E !important;
+    background: none !important;
+}
+
+.artist-join-waitlist-button:focus {
+    box-shadow: none !important;
 }
 
 .artist-mobile-col {

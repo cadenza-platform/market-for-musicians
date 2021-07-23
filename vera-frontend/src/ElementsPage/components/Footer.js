@@ -6,8 +6,7 @@ import {
     Image
 } from 'react-bootstrap';
 import { 
-    BrowserRouter as Router,
-    Link
+    BrowserRouter as Router
 } from "react-router-dom";
 import '../styles/Footer.css';
 import logo from "../styles/images/logo-white.png";
@@ -17,7 +16,7 @@ import UserToggle from './UserToggle';
 
 function Footer() {
     return (
-        <Container fluid className="footer-container">
+        <Container fluid className="footer-container" id="footer">
             <Container className="footer-inner-container">
                 <Container className="footer-text-wrapper" style={{ backgroundImage: `url(${background})` }}>
                     <h1 className="footer-title">
@@ -56,16 +55,16 @@ function Footer() {
                         <Col md={2}>
                             <Image src={logo} className="footer-logo" />
                         </Col>
-                        <Col className="footer-col-left d-flex justify-content-center justify-content-md-start" md={6}>
+                        <Col className="footer-col-left d-flex justify-content-center justify-content-md-start fan-artist-toggle" md={6}>
                             <UserToggle />
                         </Col>
                         <Col md={4}>
                             <Row>
-                                <Col>
-                                    <Link className="footer-link">Contact</Link>
+                                <Col className="footer-col-right">
+                                    <a href="mailto:anishtech1@gmail.com?subject=Contact Vera" className="footer-link">Contact</a>
                                 </Col>
-                                <Col>
-                                    <Link className="footer-link">Career</Link>
+                                <Col className="footer-col-right">
+                                    <a href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" className="footer-link">Career</a>
                                 </Col>
                             </Row>
                         </Col>

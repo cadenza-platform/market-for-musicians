@@ -14,7 +14,7 @@ function FanHeader() {
             <Row className="flex-column-reverse flex-md-row" xs={1} md={2}>
                 <Col className="fan-header-text fan-desktop-col">
                     <h1 className="fan-header-text-title">
-                        Bet early on artists.<br/>
+                        Support artists early on.<br/>
                         Prosper together.
                     </h1><br/>
                     <i className="fan-header-text-body">
