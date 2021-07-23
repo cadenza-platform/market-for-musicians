@@ -1,5 +1,6 @@
 import Buttons from './components/Buttons';
-import Navbars from './components/Navbars';
+import FanNavbar from './components/FanNavbar';
+import ArtistNavbar from './components/ArtistNavbar';
 import SongCard from './components/SongCard';
 import Dropdown from './components/Dropdown';
 import CaptionedImage from './components/Image';
@@ -18,7 +19,8 @@ import {
 function Elements() {
     return (
         <div className="elements-container">
-            <Navbars /><br />
+            <FanNavbar /><br />
+            <ArtistNavbar /><br />
             <Buttons /><br /><br/>
             <div className="images-container">
                 <CaptionedImage content={noCaptionNoBorderProps} />
