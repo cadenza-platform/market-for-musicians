@@ -52,10 +52,10 @@ function Navbars(props) {
         );
     }
 
-    var joinWaitlistButton = (
+    var trailingContent = (
         props.fixed ? 
         <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button> :
-        <div></div>
+        <UserToggle/>
     );
 
     return (
@@ -73,8 +73,7 @@ function Navbars(props) {
                     {navlinks}
 
                     <Nav className="ml-auto nav">
-                        {joinWaitlistButton}
-                        <UserToggle />
+                        {trailingContent}
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
