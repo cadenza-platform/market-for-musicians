@@ -1,7 +1,8 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Elements from "./ElementsPage/Elements";
-import Landing from "./LandingPage/Landing";
+import ArtistLanding from "./LandingPage/ArtistLanding";
+import FanLanding from "./LandingPage/FanLanding";
 import {
   BrowserRouter as Router,
   Switch,
@@ -14,7 +15,10 @@ function App() {
       <Router>
         <Switch>
           <Route exact path="/">
-            <Landing />
+            <FanLanding />
+          </Route>
+          <Route exact path="/artist">
+            <ArtistLanding />
           </Route>
           <Route path="/elements">
             <Elements />
