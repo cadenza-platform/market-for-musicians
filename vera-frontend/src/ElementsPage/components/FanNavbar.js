@@ -4,7 +4,6 @@ import {
     Image,
     Button
 } from 'react-bootstrap';
-import { BrowserRouter as Router } from "react-router-dom";
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
 import logo from "../styles/images/logo.png";
@@ -39,30 +38,28 @@ function FanNavbar(props) {
     );
 
     return (
-        <Router>
-            <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={props.fixed ? "top" : "none"}>
-                <Link to="#header">
-                    <Navbar.Brand>
-                        <Image src={logo} />
-                    </Navbar.Brand>
-                </Link>
-            
-                {collapseToggle}
+        <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={props.fixed ? "top" : "none"}>
+            <Link to="#header">
+                <Navbar.Brand>
+                    <Image src={logo} />
+                </Navbar.Brand>
+            </Link>
+        
+            {collapseToggle}
 
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto nav">
-                        <Link to="#getting-started" className="nav-link">Getting Started</Link>
-                        <Link to="#how-it-works" className="nav-link">How It Works</Link>
-                        <Link to="#features" className="nav-link">Features</Link>
-                        <Link to="#careers" className="nav-link">Careers</Link>
-                    </Nav>
+            <Navbar.Collapse id="basic-navbar-nav">
+                <Nav className="mr-auto nav">
+                    <Link to="#getting-started" className="nav-link">Getting Started</Link>
+                    <Link to="#how-it-works" className="nav-link">How It Works</Link>
+                    <Link to="#features" className="nav-link">Features</Link>
+                    <Link to="#careers" className="nav-link">Careers</Link>
+                </Nav>
 
-                    <Nav className="ml-auto nav">
-                        {trailingContent}
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-        </Router>
+                <Nav className="ml-auto nav">
+                    {trailingContent}
+                </Nav>
+            </Navbar.Collapse>
+        </Navbar>
     );
 }
 
