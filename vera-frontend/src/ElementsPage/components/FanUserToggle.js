@@ -1,11 +1,19 @@
 import { Button } from 'react-bootstrap';
+import { 
+    BrowserRouter as Router,
+    Link 
+} from "react-router-dom";
 import '../styles/UserToggle.css';
 
 function FanUserToggle() {
     return (
         <div className="toggle-button-group flex-md-col">
-            <Button variant="outline-secondary" className="toggle-button left selected">For Fans</Button>
-            <Button variant="outline-secondary" className="toggle-button right">For Artists</Button>
+            <Link to="/">
+                <Button variant="outline-secondary" className="toggle-button left selected">For Fans</Button>
+            </Link>
+            <Link to="/artist">
+                <Button variant="outline-secondary" className="toggle-button right">For Artists</Button>
+            </Link>
         </div>
     );
 }
