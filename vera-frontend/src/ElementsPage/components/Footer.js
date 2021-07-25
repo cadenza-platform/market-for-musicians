@@ -5,21 +5,36 @@ import {
     Col,
     Image
 } from 'react-bootstrap';
-import { useLocation } from "react-router-dom";
+import { 
+    useLocation,
+    Link
+} from "react-router-dom";
 import '../styles/Footer.css';
 import logo from "../styles/images/logo-white.png";
 import background from "../styles/images/footer-background.png"
 import backgroundMobile from "../styles/images/footer-background-mobile.png";
 import FanUserToggle from './FanUserToggle';
 import ArtistUserToggle from './ArtistUserToggle';
+import { wait } from '@testing-library/react';
 
 function Footer() {
     const location = useLocation();
     var userToggle;
+    var waitlistButton;
     if (location.pathname === "/") {
-        userToggle = <FanUserToggle />
+        userToggle = <FanUserToggle />;
+        waitlistButton = (
+            <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BDLe1YBE" }} target="_blank" >
+                <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+            </Link>
+        );
     } else if (location.pathname === "/artist") {
         userToggle = <ArtistUserToggle />
+        waitlistButton = (
+            <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BYLLLPlb" }} target="_blank" >
+                <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+            </Link>
+        );
     }
     
     return (
@@ -36,7 +51,7 @@ function Footer() {
                             </p>
                         </Col>
                         <Col className="footer-col-right">
-                            <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+                            {waitlistButton}
                         </Col>
                     </Row>
                 </Container>
@@ -52,7 +67,7 @@ function Footer() {
                             </p>
                         </Col>
                         <Col className="footer-col-right">
-                            <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+                            {waitlistButton}
                         </Col>
                     </Row>
                 </Container>
