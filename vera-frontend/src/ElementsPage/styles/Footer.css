@@ -15,7 +15,10 @@
 }
 
 .footer-text-wrapper {
-    padding: 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-left: 40px;
+    padding-right: 40px;
     border-radius: 10px;
     margin-bottom: 50px;
     background-size: cover;
