@@ -32,8 +32,11 @@ function FanNavbar(props) {
     }
 
     var trailingContent = (
-        props.fixed ? 
-        <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button> :
+        props.fixed ? (
+            <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BDLe1YBE" }} target="_blank" >
+                <Button variant="outline-dark" className="nav-join-waitlist-button">JOIN WAITLIST</Button>
+            </Link>
+        ) :
         <FanUserToggle/>
     );
 

@@ -6,6 +6,7 @@ import {
     Row,
     Col
 } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import laptop from '../styles/images/laptop.png';
 
 function FanHeader() {
@@ -20,7 +21,9 @@ function FanHeader() {
                     <i className="fan-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i><br/><br/><br/>
-                    <Button variant="outline-light" className="fan-join-waitlist-button">JOIN WAITLIST</Button>
+                    <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BDLe1YBE" }} target="_blank" >
+                        <Button variant="outline-light" className="fan-join-waitlist-button">JOIN WAITLIST</Button>
+                    </Link>
                 </Col>
                 <Col className="fan-desktop-col">
                     <Image fluid src={laptop} />
@@ -34,7 +37,9 @@ function FanHeader() {
                     <i className="fan-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i>
-                    <Button variant="outline-light" className="fan-join-waitlist-button">JOIN WAITLIST</Button>
+                    <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BDLe1YBE" }} target="_blank" >
+                        <Button variant="outline-light" className="fan-join-waitlist-button">JOIN WAITLIST</Button>
+                    </Link>
                 </Col>
             </Row>
         </Container>

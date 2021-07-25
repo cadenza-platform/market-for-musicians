@@ -6,6 +6,7 @@ import {
     Row,
     Col
 } from 'react-bootstrap';
+import { Link } from "react-router-dom";
 import laptop from '../styles/images/laptop.png';
 
 function ArtistHeader() {
@@ -23,7 +24,9 @@ function ArtistHeader() {
                     <i className="artist-header-text-body">
                         A decentralized record label for a more sustainable future
                     </i><br/><br/><br/>
-                    <Button variant="outline-light" className="artist-join-waitlist-button">JOIN ARTIST WAITLIST</Button>
+                    <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BYLLLPlb" }} target="_blank" >
+                        <Button variant="outline-light" className="artist-join-waitlist-button">JOIN ARTIST WAITLIST</Button>
+                    </Link>
                 </Col>
                 <Col className="artist-desktop-col">
                     <Image fluid src={laptop} />
@@ -41,7 +44,9 @@ function ArtistHeader() {
                     <i className="artist-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i>
-                    <Button variant="outline-light" className="artist-join-waitlist-button">JOIN WAITLIST</Button>
+                    <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BYLLLPlb" }} target="_blank" >
+                        <Button variant="outline-light" className="artist-join-waitlist-button">JOIN WAITLIST</Button>
+                    </Link>
                 </Col>
             </Row>
         </Container>
