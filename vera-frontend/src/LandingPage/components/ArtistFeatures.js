@@ -8,6 +8,8 @@ import recommendationsIcon from '../styles/images/recommendations-icon.svg';
 import creativeFreedomIcon from '../styles/images/creative-freedom-icon.svg';
 import analyticsIcon from '../styles/images/analytics-icon.svg';
 import flexibleExchangeIcon from '../styles/images/flexible-exchange-icon.svg';
+import securityIcon from '../styles/images/security-icon.svg';
+import environmentIcon from '../styles/images/environment-icon.svg';
 import '../styles/ArtistFeatures.css';
 
 function ArtistFeatures() {
@@ -68,7 +70,7 @@ function ArtistFeatures() {
             </Row>
             <Row className="artist-feature-row">
                 <Col>
-                    <Image src={recommendationsIcon} className="artist-feature-icon"/>
+                    <Image src={securityIcon} className="artist-feature-icon"/>
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">
@@ -81,7 +83,7 @@ function ArtistFeatures() {
             </Row>
             <Row className="artist-feature-row">
                 <Col>
-                    <Image src={recommendationsIcon} className="artist-feature-icon"/> 
+                    <Image src={environmentIcon} className="artist-feature-icon" fluid/> 
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">

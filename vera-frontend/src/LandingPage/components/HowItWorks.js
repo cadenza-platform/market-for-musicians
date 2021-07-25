@@ -9,12 +9,12 @@ import '../styles/HowItWorks.css';
 import coinDataIcon from '../styles/images/coin-data-icon.svg';
 
 const faqWhatProps = {
-    "header": "Digital Limited Edition Vinyl Records (DLVs)",
+    "header": "What are Digital Limited Edition Vinyl Records (DLVs)",
     "body": "DLVs are a new way to experience music. Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Digital vinyl records do this with music, creating limited edition works that can grow in value as artists gain popularity."
 }
 
 const faqHowProps = {
-    "header": "How do DLVs work?",
+    "header": "How does Vera use DLVs",
     "body": "Vera allows you to grow with your favorite artists by purchasing shares of their digital vinyl records, and enables us to securely give you ownership of a limited edition record showcasing their music. This is possible because these records are unique and certified digital assets stored on the blockchain. While copies of digital items are available for anyone to obtain, Vera’s digital vinyl records track and provide you with proof of ownership over the asset."
 }
 
