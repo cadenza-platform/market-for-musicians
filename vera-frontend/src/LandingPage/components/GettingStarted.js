@@ -37,7 +37,7 @@ function GettingStarted() {
                     <p className="gettingstarted-header">4.  Trade</p>
                     <p className="gettingstarted-text">
                         Trade your virtual records &<br/>
-                        expand your portfolio
+                        expand your musical portfolio
                     </p>
                 </Col>
             </Row>
@@ -71,7 +71,7 @@ function GettingStarted() {
                     <Image className="gettingstarted-image" src={tradeIcon} />
                     <p className="gettingstarted-text">
                         Trade your virtual records &<br/>
-                        expand your portfolio
+                        expand your musical portfolio
                     </p>
                 </div>
             </div>

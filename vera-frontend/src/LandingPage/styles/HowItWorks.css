@@ -17,6 +17,7 @@
 
 .howitworks-icon {
     float: left;
+    width: 50%;
 }
 
 @media only screen and (max-width: 600px) {
