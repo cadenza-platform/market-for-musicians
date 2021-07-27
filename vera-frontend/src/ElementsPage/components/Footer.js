@@ -32,7 +32,7 @@ function Footer() {
         userToggle = <ArtistUserToggle />
         waitlistButton = (
             <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BYLLLPlb" }} target="_blank" >
-                <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+                <Button variant="outline-light" className="footer-button">JOIN ARTIST WAITLIST</Button>
             </Link>
         );
     }
