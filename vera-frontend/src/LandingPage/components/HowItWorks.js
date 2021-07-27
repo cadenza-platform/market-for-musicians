@@ -9,7 +9,7 @@ import '../styles/HowItWorks.css';
 import coinDataIcon from '../styles/images/coin-data-icon.svg';
 
 const faqWhatProps = {
-    "header": "What are Digital Limited Edition Vinyl Records (DLVs)",
+    "header": <div>What are <div className="popout-letter">D</div>igital <div className="popout-letter">L</div>imited Edition <div className="popout-letter">V</div>inyl Records (DLVs)</div>,
     "body": "DLVs are a new way to experience music. Take the painting of the Mona Lisa, for example. It is copied, photographed, and distributed everywhere, but there's only one original physical painting. This gives the original painting and its owner incredible value due to its rarity. Digital vinyl records do this with music, creating limited edition works that can grow in value as artists gain popularity."
 }
 

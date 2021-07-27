@@ -20,6 +20,12 @@
     width: 50%;
 }
 
+.popout-letter {
+    display: inline;
+    font-weight: 900;
+    color: black;
+}
+
 @media only screen and (max-width: 600px) {
     .howitworks-text-title {
         text-align: left;

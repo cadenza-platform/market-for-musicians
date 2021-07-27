@@ -85,7 +85,7 @@ function Footer() {
                                 <a href="mailto:anishtech1@gmail.com?subject=Contact Vera" className="footer-link">Contact</a>
                             </Col>
                             <Col className="footer-col-right">
-                                <a href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" className="footer-link">Career</a>
+                                <a href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" className="footer-link">Careers</a>
                             </Col>
                         </Row>
                     </Col>

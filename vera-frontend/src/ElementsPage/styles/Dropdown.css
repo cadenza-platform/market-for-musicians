@@ -10,7 +10,8 @@
 }
 
 .info-dropdown-header {
-    font-weight: bolder;
+    font-weight: 500 !important;
+    color: #3f3f3f;
     text-align: left;
     display: flex;
     justify-content: space-between;
