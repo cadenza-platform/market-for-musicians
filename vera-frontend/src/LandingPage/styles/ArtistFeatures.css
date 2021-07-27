@@ -51,4 +51,8 @@
     .artist-feature-row {
         padding-bottom: 15%;
     }
+
+    .artist-feature-icon {
+        margin-bottom: 10%;
+    }
 }

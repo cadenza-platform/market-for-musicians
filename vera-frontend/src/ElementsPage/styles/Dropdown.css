@@ -11,6 +11,7 @@
 
 .info-dropdown-header {
     font-weight: bolder;
+    text-align: left;
     display: flex;
     justify-content: space-between;
     align-items: center;

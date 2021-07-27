@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import recommendationsIcon from '../styles/images/recommendations-icon.svg';
 import creativeFreedomIcon from '../styles/images/creative-freedom-icon.svg';
-import analyticsIcon from '../styles/images/analytics-icon.svg';
+import simpleCreationIcon from '../styles/images/simple-creation-icon.svg';
 import flexibleExchangeIcon from '../styles/images/flexible-exchange-icon.svg';
 import securityIcon from '../styles/images/security-icon.svg';
 import environmentIcon from '../styles/images/environment-icon.svg';
@@ -22,7 +22,7 @@ function ArtistFeatures() {
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">
-                        How does Vera help you?
+                        Crowd Sourced Revenue
                     </h2>
                     <p className="artist-feature-body">
                         Vera allows you to unlock a new stream of crowd-funded revenue by tapping into your fanbase for trusted investment. By distributing assets such as music and special content to the public, you can provide an unparalleled level of interaction with your fans while bringing in a new source of income to keep the music flowing.
@@ -35,7 +35,7 @@ function ArtistFeatures() {
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">
-                        Do I retain creative freedom and ownership over my work?
+                        Creative Freedom
                     </h2>
                     <p className="artist-feature-body">
                         Our goal at Vera is to preserve your creative freedom while creating new opportunities using our crowd funding model. You retain all ownership and copyright over your original work, while your fans gain ownership of a limited edition DVR of your music. We want you to keep making music that we all love, and we’re here to support you along the way.
@@ -44,11 +44,11 @@ function ArtistFeatures() {
             </Row>
             <Row className="artist-feature-row">
                 <Col>
-                    <Image src={analyticsIcon} className="artist-feature-icon" />
+                    <Image src={simpleCreationIcon} className="artist-feature-icon" />
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">
-                        How do I create a DVR (digital vinyl record)?
+                        Simple Creation
                     </h2>
                     <p className="artist-feature-body">
                         Once you have a song on a streaming service such as Spotify, creating a Vera DVR is as simple as clicking a button. You’ll simply connect your account and enter in information about the piece that will add to the creative value of the DVR! Vera will automatically set up an initial DVR auction for your followers and fans on the site.
@@ -61,7 +61,7 @@ function ArtistFeatures() {
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">
-                        How do I monetize my DVRs?
+                        Monetization
                     </h2>
                     <p className="artist-feature-body">
                         You have the flexibility to set monetization rates on sales of your digital vinyl records! You make both a large percentage of initial record auction sales, plus a small commission on all future transactions of your records on the Vera public market.
@@ -83,7 +83,7 @@ function ArtistFeatures() {
             </Row>
             <Row className="artist-feature-row">
                 <Col>
-                    <Image src={environmentIcon} className="artist-feature-icon" fluid/> 
+                    <Image src={environmentIcon} className="artist-feature-icon"/> 
                 </Col>
                 <Col className="artist-feature-description">
                     <h2 className="artist-feature-title">
