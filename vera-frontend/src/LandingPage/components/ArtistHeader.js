@@ -12,7 +12,7 @@ import laptop from '../styles/images/laptop.png';
 function ArtistHeader() {
     return(
         <Container fluid className="artist-header-container" id="header">
-            <Row className="flex-column-reverse flex-md-row" xs={1} md={2}>
+            <Row className="flex-column-reverse flex-md-row justify-content-center" xs={1} md={2}>
                 <Col className="artist-header-text artist-desktop-col">
                     <h1 className="artist-header-text-title">
                         The Vinyl Record
