@@ -6,7 +6,7 @@ import {
 } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
-import logo from "../styles/images/logo.png";
+import logo from "../styles/images/logo.svg";
 import { useSelector, useDispatch } from 'react-redux';
 
 import FanUserToggle from './FanUserToggle';
@@ -43,8 +43,8 @@ function FanNavbar(props) {
     return (
         <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={props.fixed ? "top" : "none"}>
             <Link to="#header">
-                <Navbar.Brand>
-                    <Image src={logo} />
+                <Navbar.Brand >
+                    <Image src={logo} className="navbar-logo"/>
                 </Navbar.Brand>
             </Link>
         
