@@ -23,6 +23,10 @@
     border: 0px;
 }
 
+.navbar-logo {
+    height: 40px;
+}
+
 .nav-join-waitlist-button {
     color: #3B8686;
     border-radius: 10px;
