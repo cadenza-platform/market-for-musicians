@@ -32,7 +32,7 @@ function Footer() {
         userToggle = <ArtistUserToggle />
         waitlistButton = (
             <Link to={{ pathname: "https://1vd6ke3g2u4.typeform.com/to/BYLLLPlb" }} target="_blank" >
-                <Button variant="outline-light" className="footer-button">JOIN WAITLIST</Button>
+                <Button variant="outline-light" className="footer-button">JOIN ARTIST WAITLIST</Button>
             </Link>
         );
     }
@@ -85,7 +85,7 @@ function Footer() {
                                 <a href="mailto:anishtech1@gmail.com?subject=Contact Vera" className="footer-link">Contact</a>
                             </Col>
                             <Col className="footer-col-right">
-                                <a href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" className="footer-link">Career</a>
+                                <a href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" className="footer-link">Careers</a>
                             </Col>
                         </Row>
                     </Col>

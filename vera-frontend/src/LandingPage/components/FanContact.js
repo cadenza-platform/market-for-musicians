@@ -15,7 +15,7 @@ function Contact() {
             <br/>
             Let us know a bit about your background and why you think you'd be a good fit.
             </p>
-            <Button variant="outline-light" className="fan-contact-button">CONTACT US</Button>
+            <Button href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera" variant="outline-light" className="fan-contact-button">CONTACT US</Button>
         </Container>
     );
 }

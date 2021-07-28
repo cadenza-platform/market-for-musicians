@@ -34,7 +34,7 @@
 .artist-join-waitlist-button:hover {
     color: #AEE49E !important;
     border-color: white !important;
-    background: none;
+    background-color: white;
 }
 
 .artist-join-waitlist-button:active {

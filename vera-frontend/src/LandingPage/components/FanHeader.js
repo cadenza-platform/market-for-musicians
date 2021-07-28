@@ -30,7 +30,7 @@ function FanHeader() {
                 </Col>
                 <Col className="fan-mobile-col">
                     <h1 className="fan-header-text-title">
-                        Bet early on artists.<br/>
+                        Support artists early on.<br/>
                         Prosper together.
                     </h1><br/>
                     <Image fluid src={laptop} className="fan-header-image-mobile"/>
