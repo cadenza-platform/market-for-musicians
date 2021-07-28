@@ -9,6 +9,11 @@ import {
   Route
 } from "react-router-dom";
 
+import ReactGA from 'react-ga';
+
+const trackingId = "G-9QEL0TW34P";
+ReactGA.initialize(trackingId);
+
 function App() {
   return (
     <div className="App">
