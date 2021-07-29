@@ -12,7 +12,7 @@ import laptop from '../styles/images/laptop.png';
 function FanHeader() {
     return(
         <Container fluid className="fan-header-container" id="header">
-            <Row className="flex-column-reverse flex-md-row" xs={1} md={2}>
+            <Row className="flex-column-reverse flex-md-row justify-content-center" xs={1} md={2}>
                 <Col className="fan-header-text fan-desktop-col">
                     <h1 className="fan-header-text-title">
                         Support artists early on.<br/>

@@ -7,7 +7,7 @@
 
 .fan-header-text-title {
     color: black;
-    font-size: xx-large;
+    font-size: xxx-large;
     font-weight: bolder;
 }
 
@@ -42,7 +42,19 @@
     display: none;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 1450px) {
+    .fan-header-text-title {
+        font-size: xx-large;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .fan-header-text-title {
+        font-size: x-large;
+    }
+}
+
+@media only screen and (max-width: 800px) {
     .fan-mobile-col {
         display: block;
     }
@@ -52,7 +64,7 @@
     }
 
     .fan-header-text-title {
-        font-size: 30px;
+        font-size: x-large;
         line-height: 38px;
     }
 

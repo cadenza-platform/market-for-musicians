@@ -1,4 +1,4 @@
-import logo from './styles/images/logo.png';
+import logo from './styles/images/logo.svg';
 
 const songcardProps = {
     "title": "Test Title",
