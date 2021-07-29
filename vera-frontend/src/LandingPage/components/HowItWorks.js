@@ -25,7 +25,7 @@ const faqSellProps = {
 
 const faqSecurityProps = {
     "header": "How does Vera handle security?",
-    "body": "Vera’s flexible exchange is a secure and regulated marketplace in which your DVRs can be transacted in a safe and efficient manner. Our thorough verification and certification processes for users and content on the platform allow us to ensure and maintain authenticity in our markets."
+    "body": "Vera’s flexible exchange is a secure and regulated marketplace in which your DLVs can be transacted in a safe and efficient manner. Our thorough verification and certification processes for users and content on the platform allow us to ensure and maintain authenticity in our markets."
 }
 
 const fawEnvironmentProps = {

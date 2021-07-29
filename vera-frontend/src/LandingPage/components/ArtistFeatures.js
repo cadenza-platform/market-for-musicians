@@ -38,7 +38,7 @@ function ArtistFeatures() {
                         Creative Freedom
                     </h2>
                     <p className="artist-feature-body">
-                        Our goal at Vera is to preserve your creative freedom while creating new opportunities using our crowd funding model. You retain all ownership and copyright over your original work, while your fans gain ownership of a limited edition DVR of your music. We want you to keep making music that we all love, and we’re here to support you along the way.
+                        Our goal at Vera is to preserve your creative freedom while creating new opportunities using our crowd funding model. You retain all ownership and copyright over your original work, while your fans gain ownership of a limited edition DLV of your music. We want you to keep making music that we all love, and we’re here to support you along the way.
                     </p>
                 </Col>
             </Row>
@@ -51,7 +51,7 @@ function ArtistFeatures() {
                         Simple Creation
                     </h2>
                     <p className="artist-feature-body">
-                        Once you have a song on a streaming service such as Spotify, creating a Vera DVR is as simple as clicking a button. You’ll simply connect your account and enter in information about the piece that will add to the creative value of the DVR! Vera will automatically set up an initial DVR auction for your followers and fans on the site.
+                        Once you have a song on a streaming service such as Spotify, creating a Vera DLV is as simple as clicking a button. You’ll simply connect your account and enter in information about the piece that will add to the creative value of the DLV! Vera will automatically set up an initial DLV auction for your followers and fans on the site.
                     </p>
                 </Col>
             </Row>
@@ -77,7 +77,7 @@ function ArtistFeatures() {
                         Security
                     </h2>
                     <p className="artist-feature-body">
-                        Vera’s flexible exchange is a secure and regulated marketplace in which your DVRs can be transacted in a safe and efficient manner. Our thorough verification and certification processes for users and content on the platform allow us to ensure and maintain authenticity in our markets.
+                        Vera’s flexible exchange is a secure and regulated marketplace in which your DLVs can be transacted in a safe and efficient manner. Our thorough verification and certification processes for users and content on the platform allow us to ensure and maintain authenticity in our markets.
                     </p>
                 </Col>
             </Row>
