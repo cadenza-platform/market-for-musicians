@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.98548da3.chunk.css",
-    "main.js": "/static/js/main.993befa1.chunk.js",
-    "main.js.map": "/static/js/main.993befa1.chunk.js.map",
+    "main.css": "/static/css/main.ddad293b.chunk.css",
+    "main.js": "/static/js/main.e3e5f816.chunk.js",
+    "main.js.map": "/static/js/main.e3e5f816.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1599f484.js",
     "runtime-main.js.map": "/static/js/runtime-main.1599f484.js.map",
     "static/css/2.081f420c.chunk.css": "/static/css/2.081f420c.chunk.css",
-    "static/js/2.8abc3df6.chunk.js": "/static/js/2.8abc3df6.chunk.js",
-    "static/js/2.8abc3df6.chunk.js.map": "/static/js/2.8abc3df6.chunk.js.map",
+    "static/js/2.80821223.chunk.js": "/static/js/2.80821223.chunk.js",
+    "static/js/2.80821223.chunk.js.map": "/static/js/2.80821223.chunk.js.map",
     "static/js/3.e0258ce5.chunk.js": "/static/js/3.e0258ce5.chunk.js",
     "static/js/3.e0258ce5.chunk.js.map": "/static/js/3.e0258ce5.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.081f420c.chunk.css.map": "/static/css/2.081f420c.chunk.css.map",
-    "static/css/main.98548da3.chunk.css.map": "/static/css/main.98548da3.chunk.css.map",
-    "static/js/2.8abc3df6.chunk.js.LICENSE.txt": "/static/js/2.8abc3df6.chunk.js.LICENSE.txt",
+    "static/css/main.ddad293b.chunk.css.map": "/static/css/main.ddad293b.chunk.css.map",
+    "static/js/2.80821223.chunk.js.LICENSE.txt": "/static/js/2.80821223.chunk.js.LICENSE.txt",
     "static/media/advanced-search-icon.ae0ed2da.svg": "/static/media/advanced-search-icon.ae0ed2da.svg",
     "static/media/analytics-icon.b6a1f133.svg": "/static/media/analytics-icon.b6a1f133.svg",
     "static/media/coin-data-icon.6f70810e.svg": "/static/media/coin-data-icon.6f70810e.svg",
@@ -28,6 +28,8 @@
     "static/media/investment-icon.cb0b2ae2.svg": "/static/media/investment-icon.cb0b2ae2.svg",
     "static/media/laptop-icon.83da05f2.svg": "/static/media/laptop-icon.83da05f2.svg",
     "static/media/laptop.53af3569.png": "/static/media/laptop.53af3569.png",
+    "static/media/logo-white.a6a14f1d.svg": "/static/media/logo-white.a6a14f1d.svg",
+    "static/media/logo.8c904a8c.svg": "/static/media/logo.8c904a8c.svg",
     "static/media/recommendations-icon.85a98d21.svg": "/static/media/recommendations-icon.85a98d21.svg",
     "static/media/security-icon.b967ea56.svg": "/static/media/security-icon.b967ea56.svg",
     "static/media/simple-creation-icon.27537a1f.svg": "/static/media/simple-creation-icon.27537a1f.svg",
@@ -38,8 +40,8 @@
   "entrypoints": [
     "static/js/runtime-main.1599f484.js",
     "static/css/2.081f420c.chunk.css",
-    "static/js/2.8abc3df6.chunk.js",
-    "static/css/main.98548da3.chunk.css",
-    "static/js/main.993befa1.chunk.js"
+    "static/js/2.80821223.chunk.js",
+    "static/css/main.ddad293b.chunk.css",
+    "static/js/main.e3e5f816.chunk.js"
   ]
 }
