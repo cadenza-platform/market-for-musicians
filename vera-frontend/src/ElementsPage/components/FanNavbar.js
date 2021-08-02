@@ -2,7 +2,7 @@ import {
     Navbar,
     Nav,
     Image,
-    Button
+    Button,
 } from 'react-bootstrap';
 import { HashLink as Link } from 'react-router-hash-link';
 import '../styles/Navbars.css';
@@ -20,10 +20,10 @@ function FanNavbar(props) {
     const dispatch = useDispatch();
 
     const collapse = useSelector(selectCollapse);
-    var collapseToggle = (<Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle-open" onClick={() => dispatch(toggleCollapseOpen())} />);
+    var collapseToggle = (<Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-toggle-open" onClick={() => dispatch(toggleCollapseOpen())} />);
     if (collapse === 'open') {
         collapseToggle = (
-            <Navbar.Toggle aria-controls="basic-navbar-nav" className="nav-toggle-close" onClick={() => dispatch(toggleCollapseClose())}>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" className="nav-toggle-close" onClick={() => dispatch(toggleCollapseClose())}>
                 <button type="button" className="close">
                     <span aria-hidden="true">&times;</span>
                 </button>
@@ -41,21 +41,19 @@ function FanNavbar(props) {
     );
 
     return (
-        <Navbar expand="lg" className="navbar flex-row-reverse flex-lg-row" fixed={props.fixed ? "top" : "none"}>
-            <Link to="#header">
-                <Navbar.Brand >
-                    <Image src={logo} className="navbar-logo"/>
-                </Navbar.Brand>
-            </Link>
-        
+        <Navbar collapseOnSelect className="navbar flex-row-reverse flex-lg-row" expand="lg" fixed={props.fixed ? "top" : "none"}>
+            <Navbar.Brand href="#header">
+                <Image src={logo} className="navbar-logo"/>
+            </Navbar.Brand>
+
             {collapseToggle}
 
-            <Navbar.Collapse id="basic-navbar-nav">
+            <Navbar.Collapse id="responsive-navbar-nav">
                 <Nav className="mr-auto nav">
-                    <Link to="#getting-started" className="nav-link">Getting Started</Link>
-                    <Link to="#how-it-works" className="nav-link">How It Works</Link>
-                    <Link to="#features" className="nav-link">Features</Link>
-                    <Link to="#careers" className="nav-link">Careers</Link>
+                    <Nav.Link href="#getting-started" className="nav-link" onClick={() => dispatch(toggleCollapseClose())}>Getting Started</Nav.Link>
+                    <Nav.Link href="#how-it-works" className="nav-link" onClick={() => dispatch(toggleCollapseClose())}>How it works</Nav.Link>
+                    <Nav.Link href="#features" className="nav-link" onClick={() => dispatch(toggleCollapseClose())}>Features</Nav.Link>
+                    <Nav.Link href="#careers" className="nav-link" onClick={() => dispatch(toggleCollapseClose())}>Careers</Nav.Link>
                 </Nav>
 
                 <Nav className="ml-auto nav">

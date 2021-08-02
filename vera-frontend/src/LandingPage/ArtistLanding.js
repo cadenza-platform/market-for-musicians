@@ -11,7 +11,7 @@ function Landing() {
 
     return (
         <div className="landing-page artist-view" ref={scrollRef}>
-            <ArtistNavbar fixed={scrollPercentage >= 0.40} />
+            <ArtistNavbar fixed={scrollPercentage >= 0.35} />
             <ArtistHeader />
             <ArtistFeatures />
             <Footer />

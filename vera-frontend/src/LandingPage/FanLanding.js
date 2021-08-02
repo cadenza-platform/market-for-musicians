@@ -14,7 +14,7 @@ function Landing() {
 
     return (
         <div className="landing-page fan-view" ref={scrollRef}>
-            <FanNavbar fixed={scrollPercentage >= 0.30} />
+            <FanNavbar fixed={scrollPercentage >= 0.29} />
             <FanHeader />
             <GettingStarted />
             <HowItWorks />
