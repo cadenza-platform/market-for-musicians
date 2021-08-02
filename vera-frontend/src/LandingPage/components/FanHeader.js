@@ -7,7 +7,7 @@ import {
     Col
 } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import laptop from '../styles/images/laptop.png';
+import mockup from '../styles/images/header-mockup.png';
 
 function FanHeader() {
     return(
@@ -26,14 +26,14 @@ function FanHeader() {
                     </Link>
                 </Col>
                 <Col className="fan-desktop-col">
-                    <Image fluid src={laptop} />
+                    <Image fluid src={mockup} />
                 </Col>
                 <Col className="fan-mobile-col">
                     <h1 className="fan-header-text-title">
                         Support artists early on.<br/>
                         Prosper together.
                     </h1><br/>
-                    <Image fluid src={laptop} className="fan-header-image-mobile"/>
+                    <Image fluid src={mockup} className="fan-header-image-mobile"/>
                     <i className="fan-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i>

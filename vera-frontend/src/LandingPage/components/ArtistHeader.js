@@ -7,7 +7,7 @@ import {
     Col
 } from 'react-bootstrap';
 import { Link } from "react-router-dom";
-import laptop from '../styles/images/laptop.png';
+import mockup from '../styles/images/header-mockup.png';
 
 function ArtistHeader() {
     return(
@@ -29,7 +29,7 @@ function ArtistHeader() {
                     </Link>
                 </Col>
                 <Col className="artist-desktop-col">
-                    <Image fluid src={laptop} />
+                    <Image fluid src={mockup} />
                 </Col>
 
                 <Col className="artist-mobile-col">
@@ -40,7 +40,7 @@ function ArtistHeader() {
                         Reimagined for the Digital Age
                     </h1>
                     <br/>
-                    <Image fluid src={laptop} className="artist-header-image-mobile"/>
+                    <Image fluid src={mockup} className="artist-header-image-mobile"/>
                     <i className="artist-header-text-body">
                         Support underground artists and grow your portfolio as they grow their fan base.
                     </i>
