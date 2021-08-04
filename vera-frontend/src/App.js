@@ -8,25 +8,16 @@ import {
   Switch,
   Route
 } from "react-router-dom";
-
 import ReactGA from 'react-ga';
-import { createBrowserHistory } from 'history';
-
-// set up GA
-const trackingId = "G-9QEL0TW34P";
-ReactGA.initialize(trackingId);
 
 // GA pageview tracking
-const history = createBrowserHistory();
-history.listen(location => {
-  ReactGA.set({ page: location.pathname });
-  ReactGA.pageview(location.pathname);
-});
+ReactGA.initialize('UA-195290816-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
   return (
     <div className="App">
-      <Router history={history}>
+      <Router>
         <Switch>
           <Route exact path="/">
             <FanLanding />
