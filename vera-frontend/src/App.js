@@ -1,17 +1,13 @@
-import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
 import Elements from "./ElementsPage/Elements";
 import ArtistLanding from "./LandingPage/ArtistLanding";
 import FanLanding from "./LandingPage/FanLanding";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-import ReactGA from 'react-ga';
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import ReactGA from "react-ga";
 
 // GA pageview tracking
-ReactGA.initialize('UA-195290816-1');
+ReactGA.initialize("UA-195290816-1");
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 function App() {
