@@ -50,7 +50,7 @@ function Footer() {
           <Row>
             <Col md={7} xs={12}>
               <p className="footer-subtitle">
-                Sign up to get notified when VERA launches!
+                Sign up to get notified when Cadenza launches!
               </p>
             </Col>
             <Col className="footer-col-right">{waitlistButton}</Col>
@@ -67,7 +67,7 @@ function Footer() {
           <Row>
             <Col md={7} xs={12}>
               <p className="footer-subtitle">
-                Sign up to get notified when VERA launches!
+                Sign up to get notified when Cadenza launches!
               </p>
             </Col>
             <Col className="footer-col-right">{waitlistButton}</Col>
@@ -88,7 +88,7 @@ function Footer() {
             <Row>
               <Col className="footer-col-right">
                 <a
-                  href="mailto:anishtech1@gmail.com?subject=Contact Vera"
+                  href="mailto:anishtech1@gmail.com?subject=Contact Cadenza"
                   className="footer-link"
                 >
                   Contact
@@ -96,7 +96,7 @@ function Footer() {
               </Col>
               <Col className="footer-col-right">
                 <a
-                  href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera"
+                  href="mailto:anishtech1@gmail.com?subject=Opportunities at Cadenza"
                   className="footer-link"
                 >
                   Careers
@@ -108,7 +108,7 @@ function Footer() {
         <Row>
           <Col className="footer-col-left">
             <p className="footer-copyright">
-              Vera Inc. © 2021. All Rights Reserved.
+              Cadenza Inc. © 2021. All Rights Reserved.
             </p>
           </Col>
         </Row>
