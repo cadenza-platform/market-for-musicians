@@ -22,7 +22,7 @@ function ArtistFeatures() {
         <Col className="artist-feature-description">
           <h2 className="artist-feature-title">Crowd Sourced Revenue</h2>
           <p className="artist-feature-body">
-            Vera allows you to unlock a new stream of crowd-funded revenue by
+            Cadenza allows you to unlock a new stream of crowd-funded revenue by
             tapping into your fanbase for trusted investment. By distributing
             assets such as music and special content to the public, you can
             provide an unparalleled level of interaction with your fans while
@@ -37,9 +37,9 @@ function ArtistFeatures() {
         <Col className="artist-feature-description">
           <h2 className="artist-feature-title">Creative Freedom</h2>
           <p className="artist-feature-body">
-            Our goal at Vera is to preserve your creative freedom while creating
-            new opportunities using our crowd funding model. You retain all
-            ownership and copyright over your original work, while your fans
+            Our goal at Cadenza is to preserve your creative freedom while
+            creating new opportunities using our crowd funding model. You retain
+            all ownership and copyright over your original work, while your fans
             gain ownership of a limited edition DLV of your music. We want you
             to keep making music that we all love, and we’re here to support you
             along the way.
@@ -54,11 +54,11 @@ function ArtistFeatures() {
           <h2 className="artist-feature-title">Simple Creation</h2>
           <p className="artist-feature-body">
             Once you have a song on a streaming service such as Spotify,
-            creating a Vera DLV is as simple as clicking a button. You’ll simply
-            connect your account and enter in information about the piece that
-            will add to the creative value of the DLV! Vera will automatically
-            set up an initial DLV auction for your followers and fans on the
-            site.
+            creating a Cadenza DLV is as simple as clicking a button. You’ll
+            simply connect your account and enter in information about the piece
+            that will add to the creative value of the DLV! Cadenza will
+            automatically set up an initial DLV auction for your followers and
+            fans on the site.
           </p>
         </Col>
       </Row>
@@ -72,7 +72,7 @@ function ArtistFeatures() {
             You have the flexibility to set monetization rates on sales of your
             digital vinyl records! You make both a large percentage of initial
             record auction sales, plus a small commission on all future
-            transactions of your records on the Vera public market.
+            transactions of your records on the Cadenza public market.
           </p>
         </Col>
       </Row>
@@ -83,7 +83,7 @@ function ArtistFeatures() {
         <Col className="artist-feature-description">
           <h2 className="artist-feature-title">Security</h2>
           <p className="artist-feature-body">
-            Vera’s flexible exchange is a secure and regulated marketplace in
+            Cadenza’s flexible exchange is a secure and regulated marketplace in
             which your DLVs can be transacted in a safe and efficient manner.
             Our thorough verification and certification processes for users and
             content on the platform allow us to ensure and maintain authenticity
@@ -100,7 +100,7 @@ function ArtistFeatures() {
           <p className="artist-feature-body">
             Traditional NFTs and other new, online art market systems utilize
             high-energy processes that use extensive amounts of electricity.
-            Vera is committed to a more environmentally friendly approach to
+            Cadenza is committed to a more environmentally friendly approach to
             decentralized market creation and helping reduce the carbon
             footprint of the internet.
           </p>

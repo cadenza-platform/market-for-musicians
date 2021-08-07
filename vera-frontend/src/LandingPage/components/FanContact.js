@@ -6,7 +6,7 @@ function Contact() {
     <Container fluid className="fan-contact-container" id="careers">
       <h1 className="fan-contact-header">Careers</h1>
       <p className="fan-contact-text">
-        At Vera, we are driven by our mission to revolutionize the music
+        At Cadenza, we are driven by our mission to revolutionize the music
         industry and offer an unparalleled level of interaction between artists
         and fans. We're currently looking for ambitious individuals with talent
         in software, design, and finance.
@@ -19,7 +19,7 @@ function Contact() {
         good fit.
       </p>
       <Button
-        href="mailto:anishtech1@gmail.com?subject=Opportunities at Vera"
+        href="mailto:anishtech1@gmail.com?subject=Opportunities at Cadenza"
         variant="outline-light"
         className="fan-contact-button"
       >
