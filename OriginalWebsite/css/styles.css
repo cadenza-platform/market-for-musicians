@@ -1,0 +1,288 @@
+:root {
+  --green: #569F59;
+  --darkgrey: #3A3A3A;
+}
+
+html,
+body {
+  height: 100%;
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.navbar-brand {
+  width:150px;
+  font-size: 36px;
+  font-weight: 300;
+  position: absolute;
+  left: 50%;
+  margin-left: -50px !important;  /* 50% of your logo width */
+  display: block;
+}
+
+.navbar-brand img {
+  height: 36px;
+  vertical-align: middle;
+  /* display: table-cell; */
+  /* put value of image height as your need */
+}
+
+.nav-item{
+  font-weight: 400;
+}
+
+.gradient {
+  background: rgb(22,173,22);
+  background: linear-gradient(
+    90deg, 
+    rgba(22,173,22,1) 0%, 
+    rgba(230,255,230,1) 100%
+  );
+}
+
+.page-header {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  font-size: 1.25rem;
+  color: var(--green);
+}
+
+.page-header h1{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.page-header p{
+  color: rgb(0,0,0)
+}
+
+.page-header img{
+  height: 400px;
+}
+
+.trading-card {
+  font-size: 1rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: black;
+  text-align: left;
+}
+
+.btn-outline-getstarted, 
+.btn-outline-getstarted:active, 
+.btn-outline-getstarted:visited {
+  font-weight: 400;
+  color: var(--green);
+  border: 2px solid var(--green);
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-outline-getstarted:hover{
+  background-color: var(--green);
+  color: white;
+}
+
+.btn-outline-learnmore, 
+.btn-outline-learnmore:active, 
+.btn-outline-learnmore:visited {
+  font-weight: 400;
+  color: white;
+  border: 2px solid white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.btn-outline-learnmore:hover{
+  background-color: white;
+  color: var(--green);
+}
+
+.btn-outline-buynow, 
+.btn-outline-buynow:active, 
+.btn-outline-buynow:visited {
+  font-weight: 400;
+  color: var(--green);
+  border: 2px solid var(--green);
+}
+
+.btn-outline-buynow:hover{
+  font-weight: 400;
+  color: var(--green);
+  border: 2px solid var(--green);
+}
+
+.section1{
+  background-color: var(--green);
+  color: white;
+
+  text-align: center;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section1 h2{
+  font-weight: 300;
+}
+
+.section1 p{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.section1 .paragraph{
+  text-align: justify; 
+  text-justify: inter-word;
+}
+
+hr {
+  -moz-border-bottom-colors: none;
+  -moz-border-image: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #EEEEEE -moz-use-text-color #FFFFFF;
+  border-style: solid none;
+  border-width: 1px 0;
+  margin: 18px 0;
+
+}
+
+.section2{
+  text-align: center;
+
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.section2 img{
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius:100%;
+  border: 2px solid var(--green);
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.section2 h3, hr{
+  font-weight: 300;
+  color: var(--green)
+}
+
+.section3{
+  background-color: var(--darkgrey);
+  color: white;
+  text-align: center;
+
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.section3 h2, h3{
+  font-weight: 300;
+}
+
+.section3 .feature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.section3 img{
+  padding: 15px;
+}
+
+.section4{
+  text-align: center;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.section4 h2{
+  font-weight: 300;
+}
+
+.section4 span{
+  color: var(--green);
+}
+
+.section4 button{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  /* Stay in place */
+  z-index: 1;
+  /* Sit on top */
+  padding-top: 100px;
+  /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%;
+  /* Full width */
+  height: 100%;
+  /* Full height */
+  overflow: auto;
+  /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0);
+  /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4);
+  /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 50px;
+  border: 1px solid #888;
+  width: 70%;
+}
+
+@media only screen and (max-device-width: 900px) {
+  .modal-content {
+    width: 90%;
+  }
+}
+
+@media only screen and (min-device-width: 901px) {
+  .modal-content {
+    width: 70%;
+  }
+}
+
+.modal-content h1, h2{
+  font-weight: 300;
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
