@@ -1,5 +1,6 @@
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import Elements from "./ElementsPage/Elements";
 import ArtistLanding from "./LandingPage/ArtistLanding";
 import FanLanding from "./LandingPage/FanLanding";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
