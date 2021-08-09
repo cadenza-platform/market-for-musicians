@@ -1,52 +1,52 @@
 .fan-contact-container {
-    padding: 10%;
-    background-color: #79BD9A;
-    text-align: left;
+  padding: 10%;
+  background-color: #79bd9a;
+  text-align: left;
 }
 
 .fan-contact-header {
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 63px;
-    letter-spacing: 0.2px;
-    color: #ffffff;
-    margin-bottom: 20px;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
+  margin-bottom: 20px;
 }
 
 .fan-contact-text {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 30px;
-    letter-spacing: 0.2px;
-    color: #ffffff;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+  color: #ffffff;
 }
 
 .fan-contact-button {
-    padding: 15px;
-    font-weight: 900;
-    font-size: 20px;
-    letter-spacing: 0.2px;
-    border-radius: 5px;
-    background-color: #3B8686;
-    color: #ffffff;
-    border: 0px;
+  padding: 15px;
+  font-weight: 900;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  border-radius: 5px;
+  background-color: #3b8686;
+  color: #ffffff;
+  border: 0px;
 }
 
 @media only screen and (max-width: 600px) {
-    .fan-contact-header {
-        font-size: 30px;
-        line-height: 38px;
-    }
+  .fan-contact-header {
+    font-size: 30px;
+    line-height: 38px;
+  }
 
-    .fan-contact-text {
-        font-size: 18px;
-        line-height: 23px;
-        margin-bottom: 20px;
-    }
+  .fan-contact-text {
+    font-size: 18px;
+    line-height: 23px;
+    margin-bottom: 20px;
+  }
 
-    .fan-contact-button {
-        width: 100%;
-        font-size: 25px;
-    }
+  .fan-contact-button {
+    width: 100%;
+    font-size: 25px;
+  }
 }

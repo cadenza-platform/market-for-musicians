@@ -1,13 +1,13 @@
 .image-container {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .image-caption {
-    color: black;
-    font-family: 'Mulish', sans-serif;
-    font-weight: bolder;
-    font-size: medium;
+  color: black;
+  font-family: "Mulish", sans-serif;
+  font-weight: bolder;
+  font-size: medium;
 }

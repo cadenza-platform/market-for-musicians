@@ -1,11 +1,11 @@
 .landing-page {
-    font-family: 'Mulish', 'sans-serif';
+  font-family: "Mulish", "sans-serif";
 }
 
 .artist-view .toggle-button-group .selected {
-    background-color: #3B8686;
+  background-color: #3b8686;
 }
 
 .fan-view .toggle-button-group .selected {
-    background-color: #79BD9A;
+  background-color: #79bd9a;
 }

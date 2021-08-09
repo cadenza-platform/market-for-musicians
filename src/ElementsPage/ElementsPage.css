@@ -1,12 +1,12 @@
 .elements-container {
-    padding: 10%;
+  padding: 10%;
 }
 
 .images-container {
-    display: flex;
+  display: flex;
 }
 
 .expandable-text-container {
-    width: 50%;
-    background-color: black;
+  width: 50%;
+  background-color: black;
 }

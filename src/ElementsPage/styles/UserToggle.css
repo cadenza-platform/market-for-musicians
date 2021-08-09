@@ -1,21 +1,24 @@
 .toggle-button {
-    border: 1px;
-    font-size: 14px;
-    border: 0.5px solid #c4c4c4;
+  border: 1px;
+  font-size: 14px;
+  border: 0.5px solid #c4c4c4;
 }
 
 .toggle-button:focus {
-    outline: none;
-    box-shadow: none;
+  outline: none;
+  box-shadow: none;
 }
 
 .left {
-    border-radius: 5px 0px 0px 5px;
-    border-right: none;
+  border-radius: 5px 0px 0px 5px;
+  border-right: none;
+}
+
+.left:hover {
+  background-color: #79bd9a !important;
 }
 
 .right {
-    border-radius: 0px 5px 5px 0px;
-    border-left: none;
+  border-radius: 0px 5px 5px 0px;
+  border-left: none;
 }
-

@@ -1,74 +1,74 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /* Navbar styling */
 .navbar {
-    background-color: #ffffff;
-    border: 1px solid #E2E5E6;
+  background-color: #ffffff;
+  border: 1px solid #e2e5e6;
 }
 
 .nav {
-    font-family: 'Mulish', sans-serif;
-    font-size: 14px;
-    font-weight: 600;
-    line-height: 18px;
-    color: #000000;
+  font-family: "Mulish", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
+  color: #000000;
 }
 
 /* Inner navbar elements */
 .nav-link {
-    color: #373F41;
+  color: #373f41;
 }
 
 .navbar-form {
-    background-color: #f4f5f4;
-    border: 0px;
+  background-color: #f4f5f4;
+  border: 0px;
 }
 
 .navbar-logo {
-    height: 40px;
+  height: 40px;
 }
 
 .nav-join-waitlist-button {
-    color: #3B8686;
-    border-radius: 10px;
+  color: #3b8686;
+  border-radius: 10px;
 }
 
 .nav-join-waitlist-button:focus {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .navbar-toggler {
-    border: 0px;
+  border: 0px;
 }
 
 .nav .toggle-button-group .toggle-button {
-    color: #373F41;
+  color: #373f41;
 }
 
 @media only screen and (max-width: 1000px) {
-    .navbar {
-        display: flex;
-        position: sticky;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 1000;
-    }
+  .navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+  }
 
-    .nav-join-waitlist-button {
-        margin-bottom: 10px;
-        width: 60%;
-        margin-right: auto;
-        font-size: 20px;
-    }
+  .nav-join-waitlist-button {
+    margin-bottom: 10px;
+    width: 60%;
+    margin-right: auto;
+    font-size: 20px;
+  }
 
-    .navbar-collapse {
-        text-align: left;
-        width: 80%;
-    }
+  .navbar-collapse {
+    text-align: left;
+    width: 80%;
+  }
 
-    .nav-link {
-        font-size: 20px;
-        color: #373F41;
-    }
+  .nav-link {
+    font-size: 20px;
+    color: #373f41;
+  }
 }

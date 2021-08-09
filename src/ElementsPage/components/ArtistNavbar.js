@@ -1,6 +1,7 @@
 import { Navbar, Nav, Image, Button } from "react-bootstrap";
 import { HashLink as Link } from "react-router-hash-link";
 import "../styles/Navbars.css";
+import "../styles/Buttons.css";
 import logo from "../styles/images/logo.svg";
 import { useSelector, useDispatch } from "react-redux";
 

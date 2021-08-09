@@ -1,81 +1,81 @@
 .artist-header-container {
-    background: linear-gradient(180deg, #396162 18.77%, #3B8686 82.31%);
-    padding: 10%;
-    text-align: left;
-    display: flex;
+  background: linear-gradient(180deg, #396162 18.77%, #3b8686 82.31%);
+  padding: 10%;
+  text-align: left;
+  display: flex;
 }
 
 .artist-header-text-title {
-    color: white;
-    font-size: xxx-large;
-    font-weight: bolder;
+  color: white;
+  font-size: xxx-large;
+  font-weight: bolder;
 }
 
 .artist-header-text-subtitle {
-    color: white;
-    font-size: x-large;
+  color: white;
+  font-size: x-large;
 }
 
 .artist-header-text-body {
-    font-size: large;
-    color: white;
+  font-size: large;
+  color: white;
 }
 
 .artist-join-waitlist-button {
-    font-weight: bolder;
-    font-size: x-large;
-    color: white;
-    background-color: #AEE49E;
-    padding: 15px 30px 15px 30px;
-    border: 3px solid #AEE49E !important;
-    border-radius: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+  color: white;
+  background-color: #aee49e;
+  padding: 15px 30px 15px 30px;
+  border: 3px solid #aee49e !important;
+  border-radius: 10px;
 }
 
 .artist-join-waitlist-button:hover {
-    color: #AEE49E !important;
-    border-color: white !important;
-    background-color: white;
+  color: #aee49e !important;
+  border-color: white !important;
+  background-color: white;
 }
 
 .artist-join-waitlist-button:active {
-    color: #AEE49E !important;
-    background: none !important;
+  color: #aee49e !important;
+  background: none !important;
 }
 
 .artist-join-waitlist-button:focus {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .artist-mobile-col {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 800px) {
-    .artist-mobile-col {
-        display: block;
-    }
+  .artist-mobile-col {
+    display: block;
+  }
 
-    .artist-desktop-col {
-        display: none;
-    }
+  .artist-desktop-col {
+    display: none;
+  }
 
-    .artist-header-text-title {
-        font-size: 30px;
-        line-height: 38px;
-    }
+  .artist-header-text-title {
+    font-size: 30px;
+    line-height: 38px;
+  }
 
-    .artist-header-image-mobile {
-        padding-bottom: 20px;
-    }
+  .artist-header-image-mobile {
+    padding-bottom: 20px;
+  }
 
-    .artist-header-text-body {
-        line-height: 25px;
-    }
+  .artist-header-text-body {
+    line-height: 25px;
+  }
 
-    .artist-join-waitlist-button {
-        margin-top: 20px;
-        font-size: 25px;
-        padding: 10px 10px 10px 10px;
-        width: 100%;
-    }
+  .artist-join-waitlist-button {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+  }
 }
