@@ -1,46 +1,46 @@
 .howitworks-container {
-    padding: 10%;
+  padding: 10%;
 }
 
 .howitworks-text-title {
-    color: #79BD9A;
-    font-weight: bolder;
-    font-size: xxx-large;
-    margin: 0;
-    text-align: left;
+  color: #79bd9a;
+  font-weight: bolder;
+  font-size: xxx-large;
+  margin: 0;
+  text-align: left;
 }
 
 .howitworks-text-body {
-    text-align: left;
-    font-weight: 600;
+  text-align: left;
+  font-weight: 600;
 }
 
 .howitworks-icon {
-    float: left;
-    width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .popout-letter {
-    display: inline;
-    font-weight: 900;
-    color: black;
+  display: inline;
+  font-weight: 900;
+  color: black;
 }
 
 @media only screen and (max-width: 600px) {
-    .howitworks-text-title {
-        text-align: left;
-        font-size: 30px;
-        line-height: 38px;
-        margin-bottom: 10px;
-    }
+  .howitworks-text-title {
+    text-align: left;
+    font-size: 30px;
+    line-height: 38px;
+    margin-bottom: 10px;
+  }
 
-    .howitworks-text-body {
-        font-size: 20px;
-        line-height: 25px;
-    }
-    
-    .howitworks-icon {
-        margin-bottom: 20px;
-        float: none;
-    }
+  .howitworks-text-body {
+    font-size: 20px;
+    line-height: 25px;
+  }
+
+  .howitworks-icon {
+    margin-bottom: 20px;
+    float: none;
+  }
 }

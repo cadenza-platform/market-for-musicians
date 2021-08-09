@@ -1,70 +1,70 @@
 .gettingstarted-container {
-    background-color: #f8f8f8;
-    padding: 10%;
-    text-align: left;
+  background-color: #f8f8f8;
+  padding: 10%;
+  text-align: left;
 }
 
 .gettingstarted-header {
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 63px;
-    letter-spacing: 0.2px;
-    color: #3B8686;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.2px;
+  color: #3b8686;
 }
 
 .gettingstarted-text {
-    font-style: italic;
-    font-weight: 600;
-    font-size: 27px;
-    line-height: 41px;
-    letter-spacing: 0.2px;
-    color: #373F41;
-    padding-left: 60px;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 27px;
+  line-height: 41px;
+  letter-spacing: 0.2px;
+  color: #373f41;
+  padding-left: 60px;
 }
 
 .gettingstarted-col {
-    display: flex;
-    flex-direction: column;
-    padding-right: 10%;
+  display: flex;
+  flex-direction: column;
+  padding-right: 10%;
 }
 
 .gettingstarted-image {
-    margin-left: auto; 
-    margin-right: 0;
-    margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: 0;
+  margin-bottom: 50px;
 }
 
 .gettingstarted-mobile {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 600px) {
-    .gettingstarted-desktop {
-        display: none;
-    }
+  .gettingstarted-desktop {
+    display: none;
+  }
 
-    .gettingstarted-mobile {
-        display: block;
-    }
+  .gettingstarted-mobile {
+    display: block;
+  }
 
-    .gettingstarted-header {
-        font-size: 30px;
-        line-height: 38px;
-    }
+  .gettingstarted-header {
+    font-size: 30px;
+    line-height: 38px;
+  }
 
-    .gettingstarted-text {
-        font-size: 20px;
-        line-height: 25px;
-        padding-left: 0px;
-        text-align: center;
-    }
+  .gettingstarted-text {
+    font-size: 20px;
+    line-height: 25px;
+    padding-left: 0px;
+    text-align: center;
+  }
 
-    .gettingstarted-image {
-        width: 65vw;
-        height: auto;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: 20px;
-    }
+  .gettingstarted-image {
+    width: 65vw;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
 }

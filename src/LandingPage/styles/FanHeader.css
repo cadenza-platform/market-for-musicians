@@ -1,85 +1,85 @@
 .fan-header-container {
-    background: linear-gradient(180deg, #79BD9A 16.16%, #BCD0AE 81.78%);
-    padding: 10%;
-    text-align: left;
-    display: flex;
+  background: linear-gradient(180deg, #79bd9a 16.16%, #bcd0ae 81.78%);
+  padding: 10%;
+  text-align: left;
+  display: flex;
 }
 
 .fan-header-text-title {
-    color: black;
-    font-size: xxx-large;
-    font-weight: bolder;
+  color: black;
+  font-size: xxx-large;
+  font-weight: bolder;
 }
 
 .fan-header-text-body {
-    font-size: large;
+  font-size: large;
 }
 
 .fan-join-waitlist-button {
-    font-weight: bolder;
-    font-size: x-large;
-    background-color: #3B8686;
-    color: white;
-    padding: 15px 30px 15px 30px;
-    border: 3px solid #3B8686 !important;
-    border-radius: 10px;
+  font-weight: bolder;
+  font-size: x-large;
+  background-color: #3b8686;
+  color: white;
+  padding: 15px 30px 15px 30px;
+  border: 3px solid #3b8686 !important;
+  border-radius: 10px;
 }
 
 .fan-join-waitlist-button:hover {
-    color: #3B8686;
-    background-color: white;
+  color: #3b8686;
+  background-color: white;
 }
 
 .fan-join-waitlist-button:active {
-    color: #3B8686 !important;
+  color: #3b8686 !important;
 }
 
 .fan-join-waitlist-button:focus {
-    box-shadow: none !important;
+  box-shadow: none !important;
 }
 
 .fan-mobile-col {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 1450px) {
-    .fan-header-text-title {
-        font-size: xx-large;
-    }
+  .fan-header-text-title {
+    font-size: xx-large;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-    .fan-header-text-title {
-        font-size: x-large;
-    }
+  .fan-header-text-title {
+    font-size: x-large;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .fan-mobile-col {
-        display: block;
-    }
+  .fan-mobile-col {
+    display: block;
+  }
 
-    .fan-desktop-col {
-        display: none;
-    }
+  .fan-desktop-col {
+    display: none;
+  }
 
-    .fan-header-text-title {
-        font-size: x-large;
-        line-height: 38px;
-    }
+  .fan-header-text-title {
+    font-size: x-large;
+    line-height: 38px;
+  }
 
-    .fan-header-image-mobile {
-        padding-bottom: 20px;
-    }
+  .fan-header-image-mobile {
+    padding-bottom: 20px;
+  }
 
-    .fan-header-text-body {
-        line-height: 25px;
-    }
+  .fan-header-text-body {
+    line-height: 25px;
+  }
 
-    .fan-join-waitlist-button {
-        margin-top: 20px;
-        font-size: 25px;
-        padding: 10px 10px 10px 10px;
-        width: 100%;
-    }
+  .fan-join-waitlist-button {
+    margin-top: 20px;
+    font-size: 25px;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+  }
 }

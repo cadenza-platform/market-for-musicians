@@ -1,42 +1,41 @@
 .fan-features-container {
-    background-color: #F8F8F8;
-    padding: 10%;
+  background-color: #f8f8f8;
+  padding: 10%;
 }
 
 .fan-features-header {
-    color: #79bd9a;
-    font-weight: 900;
-    font-size: 50px;
-    line-height: 63px;
-    letter-spacing: 0.2px;
-    text-align: left;
-    padding-bottom: 20px;
+  color: #79bd9a;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 63px;
+  letter-spacing: 0.2px;
+  text-align: left;
+  padding-bottom: 20px;
 }
 
 .fan-features-icon {
-    height: 100px;
-    width: auto;
+  height: 100px;
+  width: auto;
 }
 
 .fan-features-icon-label {
-    padding-top: 10px;
-    font-weight: 800;
-    font-size: 20px;
-    line-height: 25px;
-    letter-spacing: 0.2px;
-    text-align: center;
+  padding-top: 10px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 25px;
+  letter-spacing: 0.2px;
+  text-align: center;
 }
 
 @media only screen and (max-width: 1200px) {
-    
-    .fan-features-icon-label {
-        font-size: 12px;
-    }
+  .fan-features-icon-label {
+    font-size: 12px;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .fan-features-header {
-        font-size: 30px;
-        line-height: 38px;
-    }
+  .fan-features-header {
+    font-size: 30px;
+    line-height: 38px;
+  }
 }
