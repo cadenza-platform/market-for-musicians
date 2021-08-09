@@ -1,6 +1,7 @@
 import { Container, Button, Row, Col, Image } from "react-bootstrap";
 import { useLocation, Link } from "react-router-dom";
 import "../styles/Footer.css";
+import "../styles/Buttons.css";
 import logo from "../styles/images/logo-white.svg";
 import background from "../styles/images/footer-background.png";
 import backgroundMobile from "../styles/images/footer-background-mobile.png";
